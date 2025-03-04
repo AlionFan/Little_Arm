@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<robot name="tourdf">
+
+<material name="silver">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="6.912026120657246e-05 0.0005720490415996128 0.029075184860186634" rpy="0 0 0"/>
+    <mass value="1.2"/>
+    <inertia ixx="0.0007980769195944366" iyy="0.0007195636744859759" izz="0.0012845184486745302" ixy="2.8926384843563094e-08" iyz="-4.532134986318635e-09" ixz="-4.049221235579667e-07"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link21">
+  <inertial>
+    <origin xyz="0.009331956179756715 -2.9985901183365485e-07 0.02399962139808455" rpy="0 0 0"/>
+    <mass value="0.585"/>
+    <inertia ixx="0.0003785204684716541" iyy="0.0005330534105908525" izz="0.0005580559101902895" ixy="5.031908469282907e-09" iyz="4.743777188632137e-09" ixz="-6.277929462266709e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="3.8e-05 -3.8e-05 -0.06515" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/link21.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="3.8e-05 -3.8e-05 -0.06515" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/link21.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link31">
+  <inertial>
+    <origin xyz="0.018958552727281412 -0.0002894631712261024 0.07973545129791977" rpy="0 0 0"/>
+    <mass value="0.5"/>
+    <inertia ixx="0.008812134218006702" iyy="0.008749204571214426" izz="0.0006375739657706993" ixy="6.962761718452438e-06" iyz="2.437335169897415e-06" ixz="-7.409790729534516e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.049962 -3.8e-05 -0.10015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/link31.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.049962 -3.8e-05 -0.10015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/link31.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link41">
+  <inertial>
+    <origin xyz="-0.019545283743454267 3.886237290085838e-07 0.06420591996606956" rpy="0 0 0"/>
+    <mass value="0.05"/>
+    <inertia ixx="0.001062823907867043" iyy="0.0010742577637534445" izz="3.8997410129328156e-05" ixy="-1.4400830789910385e-11" iyz="-1.109149448959568e-10" ixz="7.393713345127005e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.052962 -3.8e-05 -0.28015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/link41.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.052962 -3.8e-05 -0.28015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/link41.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="route_1" type="continuous">
+  <origin xyz="-3.8e-05 3.8e-05 0.06515" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="link21"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+</joint>
+<transmission name="route_1_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="route_1">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="route_1_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<joint name="route_2" type="continuous">
+  <origin xyz="0.05 0.0 0.035" rpy="0 0 0"/>
+  <parent link="link21"/>
+  <child link="link31"/>
+  <axis xyz="-1.0 -0.0 -0.0"/>
+</joint>
+<transmission name="route_2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="route_2">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="route_2_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<joint name="route_3" type="continuous">
+  <origin xyz="0.003 0.0 0.18" rpy="0 0 0"/>
+  <parent link="link31"/>
+  <child link="link41"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+</joint>
+<transmission name="route_3_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="route_3">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="route_3_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
