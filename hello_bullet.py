@@ -28,7 +28,8 @@ cubeStartOrientation = p.getQuaternionFromEuler([0, 0, 0])
 
 # 加载机器人模型
 robotId = p.loadURDF("tourdf.urdf", cubeStartPos, cubeStartOrientation, 
-                   flags=p.URDF_USE_INERTIA_FROM_FILE)
+                   flags=p.URDF_USE_INERTIA_FROM_FILE,
+                     useFixedBase=True)
 
 # 获取关节信息
 numJoints = p.getNumJoints(robotId)
