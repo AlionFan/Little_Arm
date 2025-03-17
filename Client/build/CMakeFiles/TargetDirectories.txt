@@ -1,0 +1,9 @@
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/can_client.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/edit_cache.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/rebuild_cache.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/list_install_components.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/install.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/install/local.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/install/strip.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/can_client_autogen_timestamp_deps.dir
+/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/can_client_autogen.dir
