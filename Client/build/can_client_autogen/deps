@@ -895,6 +895,8 @@ can_client_autogen/timestamp: \
 	/Users/fan/Code/Qt/LittleArm/Client/src/main.cpp \
 	/Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.cpp \
 	/Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.h \
+	/Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
+	/Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
 	/Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
 	/Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \

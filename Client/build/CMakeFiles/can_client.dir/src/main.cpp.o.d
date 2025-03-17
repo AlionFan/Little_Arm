@@ -1134,6 +1134,8 @@ CMakeFiles/can_client.dir/src/main.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QTimer \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimer.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbasictimer.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \

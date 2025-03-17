@@ -889,6 +889,8 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \

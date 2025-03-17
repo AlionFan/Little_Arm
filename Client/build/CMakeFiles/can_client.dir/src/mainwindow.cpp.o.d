@@ -1134,6 +1134,8 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QTimer \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimer.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbasictimer.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString \
   /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/include/ui_mainwindow.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication \
@@ -1149,14 +1151,18 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QCheckBox \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qcheckbox.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QGroupBox \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgroupbox.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
-  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpicture.h \
@@ -1170,8 +1176,12 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSpacerItem \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSpinBox \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qspinbox.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QStatusBar \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstatusbar.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QTextEdit \
@@ -1185,4 +1195,62 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDateTime \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcalendar.h
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSettings \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsettings.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QFile \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/container_adaptor.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/range_formatter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_context.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_arg_store.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_args.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__ranges/ref_view.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_char.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/write_escaped.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/chars_format.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_integer.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDir \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdirlisting.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMenu \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qmenu.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QAction

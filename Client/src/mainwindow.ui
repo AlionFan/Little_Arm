@@ -90,6 +90,85 @@
          </item>
         </layout>
        </item>
+       <item>
+        <widget class="QGroupBox" name="presetGroupBox">
+         <property name="title">
+          <string>Preset Messages</string>
+         </property>
+         <layout class="QGridLayout" name="presetGridLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="presetButton1">
+            <property name="text">
+             <string>Preset 1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="presetButton2">
+            <property name="text">
+             <string>Preset 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="presetButton3">
+            <property name="text">
+             <string>Preset 3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="presetButton4">
+            <property name="text">
+             <string>Preset 4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="presetButton5">
+            <property name="text">
+             <string>Preset 5</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="presetButton6">
+            <property name="text">
+             <string>Preset 6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="presetButton7">
+            <property name="text">
+             <string>Preset 7</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="presetButton8">
+            <property name="text">
+             <string>Preset 8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="presetButton9">
+            <property name="text">
+             <string>Preset 9</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QPushButton" name="presetButton10">
+            <property name="text">
+             <string>Preset 10</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
       </layout>
      </widget>
     </item>
@@ -99,6 +178,46 @@
        <string>Monitor</string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QCheckBox" name="collapseCheckBox">
+           <property name="text">
+            <string>Collapse Messages</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="collapseIntervalSpinBox">
+           <property name="suffix">
+            <string> ms</string>
+           </property>
+           <property name="minimum">
+            <number>100</number>
+           </property>
+           <property name="maximum">
+            <number>10000</number>
+           </property>
+           <property name="value">
+            <number>1000</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
        <item>
         <widget class="QTextEdit" name="monitorText">
          <property name="readOnly">

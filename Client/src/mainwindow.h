@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QTcpSocket>
 #include <QTimer>
+#include <QMap>
+#include <QString>
 
 namespace Ui {
 class MainWindow;
@@ -25,15 +27,27 @@ private slots:
     void handleSocketData();
     void handleSocketError(QAbstractSocket::SocketError error);
     void updateMonitor();
+    void sendPresetMessage(int presetIndex);
+    void toggleMessageCollapse(bool checked);
+    void updateCollapseInterval(int value);
 
 private:
     Ui::MainWindow *ui;
     QTcpSocket *socket;
     QTimer *monitorTimer;
     bool isMonitoring;
+    bool isCollapsing;
+    int collapseInterval;
+    QMap<QString, int> messageCount;
+    QMap<QString, QString> lastMessage;
+    QMap<int, QString> presetMessages;
 
     void setupUi();
     void setupConnections();
+    void loadPresetMessages();
+    void savePresetMessages();
+    void setupPresetButtons();
+    QString formatCollapsedMessage(const QString& message, int count);
 };
 
 #endif // MAINWINDOW_H 

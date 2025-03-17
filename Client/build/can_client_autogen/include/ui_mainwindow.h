@@ -11,6 +11,8 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -18,6 +20,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QSpinBox>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QVBoxLayout>
@@ -45,8 +48,24 @@ public:
     QLabel *label_4;
     QLineEdit *canDataEdit;
     QPushButton *sendButton;
+    QGroupBox *presetGroupBox;
+    QGridLayout *presetGridLayout;
+    QPushButton *presetButton1;
+    QPushButton *presetButton2;
+    QPushButton *presetButton3;
+    QPushButton *presetButton4;
+    QPushButton *presetButton5;
+    QPushButton *presetButton6;
+    QPushButton *presetButton7;
+    QPushButton *presetButton8;
+    QPushButton *presetButton9;
+    QPushButton *presetButton10;
     QGroupBox *groupBox_2;
     QVBoxLayout *verticalLayout_3;
+    QHBoxLayout *horizontalLayout_4;
+    QCheckBox *collapseCheckBox;
+    QSpinBox *collapseIntervalSpinBox;
+    QSpacerItem *horizontalSpacer_2;
     QTextEdit *monitorText;
     QHBoxLayout *horizontalLayout_3;
     QPushButton *monitorButton;
@@ -131,6 +150,63 @@ public:
 
         verticalLayout_2->addLayout(horizontalLayout_2);
 
+        presetGroupBox = new QGroupBox(groupBox);
+        presetGroupBox->setObjectName("presetGroupBox");
+        presetGridLayout = new QGridLayout(presetGroupBox);
+        presetGridLayout->setObjectName("presetGridLayout");
+        presetButton1 = new QPushButton(presetGroupBox);
+        presetButton1->setObjectName("presetButton1");
+
+        presetGridLayout->addWidget(presetButton1, 0, 0, 1, 1);
+
+        presetButton2 = new QPushButton(presetGroupBox);
+        presetButton2->setObjectName("presetButton2");
+
+        presetGridLayout->addWidget(presetButton2, 0, 1, 1, 1);
+
+        presetButton3 = new QPushButton(presetGroupBox);
+        presetButton3->setObjectName("presetButton3");
+
+        presetGridLayout->addWidget(presetButton3, 0, 2, 1, 1);
+
+        presetButton4 = new QPushButton(presetGroupBox);
+        presetButton4->setObjectName("presetButton4");
+
+        presetGridLayout->addWidget(presetButton4, 0, 3, 1, 1);
+
+        presetButton5 = new QPushButton(presetGroupBox);
+        presetButton5->setObjectName("presetButton5");
+
+        presetGridLayout->addWidget(presetButton5, 0, 4, 1, 1);
+
+        presetButton6 = new QPushButton(presetGroupBox);
+        presetButton6->setObjectName("presetButton6");
+
+        presetGridLayout->addWidget(presetButton6, 1, 0, 1, 1);
+
+        presetButton7 = new QPushButton(presetGroupBox);
+        presetButton7->setObjectName("presetButton7");
+
+        presetGridLayout->addWidget(presetButton7, 1, 1, 1, 1);
+
+        presetButton8 = new QPushButton(presetGroupBox);
+        presetButton8->setObjectName("presetButton8");
+
+        presetGridLayout->addWidget(presetButton8, 1, 2, 1, 1);
+
+        presetButton9 = new QPushButton(presetGroupBox);
+        presetButton9->setObjectName("presetButton9");
+
+        presetGridLayout->addWidget(presetButton9, 1, 3, 1, 1);
+
+        presetButton10 = new QPushButton(presetGroupBox);
+        presetButton10->setObjectName("presetButton10");
+
+        presetGridLayout->addWidget(presetButton10, 1, 4, 1, 1);
+
+
+        verticalLayout_2->addWidget(presetGroupBox);
+
 
         verticalLayout->addWidget(groupBox);
 
@@ -138,6 +214,28 @@ public:
         groupBox_2->setObjectName("groupBox_2");
         verticalLayout_3 = new QVBoxLayout(groupBox_2);
         verticalLayout_3->setObjectName("verticalLayout_3");
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        collapseCheckBox = new QCheckBox(groupBox_2);
+        collapseCheckBox->setObjectName("collapseCheckBox");
+
+        horizontalLayout_4->addWidget(collapseCheckBox);
+
+        collapseIntervalSpinBox = new QSpinBox(groupBox_2);
+        collapseIntervalSpinBox->setObjectName("collapseIntervalSpinBox");
+        collapseIntervalSpinBox->setMinimum(100);
+        collapseIntervalSpinBox->setMaximum(10000);
+        collapseIntervalSpinBox->setValue(1000);
+
+        horizontalLayout_4->addWidget(collapseIntervalSpinBox);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_2);
+
+
+        verticalLayout_3->addLayout(horizontalLayout_4);
+
         monitorText = new QTextEdit(groupBox_2);
         monitorText->setObjectName("monitorText");
         monitorText->setReadOnly(true);
@@ -182,7 +280,20 @@ public:
         label_3->setText(QCoreApplication::translate("MainWindow", "CAN ID:", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "Data:", nullptr));
         sendButton->setText(QCoreApplication::translate("MainWindow", "Send", nullptr));
+        presetGroupBox->setTitle(QCoreApplication::translate("MainWindow", "Preset Messages", nullptr));
+        presetButton1->setText(QCoreApplication::translate("MainWindow", "Preset 1", nullptr));
+        presetButton2->setText(QCoreApplication::translate("MainWindow", "Preset 2", nullptr));
+        presetButton3->setText(QCoreApplication::translate("MainWindow", "Preset 3", nullptr));
+        presetButton4->setText(QCoreApplication::translate("MainWindow", "Preset 4", nullptr));
+        presetButton5->setText(QCoreApplication::translate("MainWindow", "Preset 5", nullptr));
+        presetButton6->setText(QCoreApplication::translate("MainWindow", "Preset 6", nullptr));
+        presetButton7->setText(QCoreApplication::translate("MainWindow", "Preset 7", nullptr));
+        presetButton8->setText(QCoreApplication::translate("MainWindow", "Preset 8", nullptr));
+        presetButton9->setText(QCoreApplication::translate("MainWindow", "Preset 9", nullptr));
+        presetButton10->setText(QCoreApplication::translate("MainWindow", "Preset 10", nullptr));
         groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "Monitor", nullptr));
+        collapseCheckBox->setText(QCoreApplication::translate("MainWindow", "Collapse Messages", nullptr));
+        collapseIntervalSpinBox->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));
         monitorButton->setText(QCoreApplication::translate("MainWindow", "Start Monitor", nullptr));
     } // retranslateUi
 
