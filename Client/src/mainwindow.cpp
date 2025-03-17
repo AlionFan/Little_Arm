@@ -24,10 +24,10 @@ void MainWindow::setupUi()
     ui->setupUi(this);
     
     // 设置默认值
-    ui->serverIpEdit->setText("192.168.1.100");  // 替换为树莓派的IP
+    ui->serverIpEdit->setText("192.168.66.202");  // 替换为树莓派的IP
     ui->serverPortEdit->setText("5000");
-    ui->canIdEdit->setText("01");
-    ui->canDataEdit->setText("F6010ADC0A006B");
+    ui->canIdEdit->setText("027");
+    ui->canDataEdit->setText("0800000000000000");
     
     // 禁用发送按钮，直到连接建立
     ui->sendButton->setEnabled(false);

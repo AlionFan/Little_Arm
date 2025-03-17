@@ -45,11 +45,11 @@ private:
             if (command.find("SEND:") == 0) {
                 // Format: "SEND:01#F6010ADC0A006B"
                 std::string can_msg = command.substr(5);
-                std::string cmd = "cansend slcan0 " + can_msg;
+                std::string cmd = "cansend can0 " + can_msg;
                 response = executeCommand(cmd);
             }
             else if (command == "MONITOR") {
-                std::string cmd = "candump slcan0 -T 1000 -n 1";
+                std::string cmd = "candump can0 -T 1000 -n 1";
                 response = executeCommand(cmd);
             }
 
