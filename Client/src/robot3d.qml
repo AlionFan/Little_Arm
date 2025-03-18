@@ -3,6 +3,11 @@ import QtQuick3D
 import QtQuick3D.Helpers
 
 View3D {
+    // 添加属性以接收从C++传递的关节角度值
+    property int joint1Angle: 0
+    property int joint2Angle: 0
+    property int joint3Angle: 0
+    property int joint4Angle: 0
     id: view3D
     implicitWidth: 640
     implicitHeight: 480
@@ -50,6 +55,8 @@ View3D {
         z: 0
         scale: Qt.vector3d(1, 1, 1)
         source: "#Cube"
+        // 将第一个滑条的值绑定到红色方块的旋转
+        eulerRotation.x: joint1Angle
         materials: PrincipledMaterial {
             baseColor: "red"
             metalness: 0.1
