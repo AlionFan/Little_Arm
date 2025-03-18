@@ -80,6 +80,8 @@ can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Cl
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/can_client_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/robot3d.qml
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/model/meshes/base_mesh.mesh
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/model/meshes/__1_mesh.mesh
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/model/meshes/__2_mesh.mesh
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/model/meshes/base__1__mesh.mesh
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Qt/6.8.0/macos/libexec/rcc
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Qt/6.8.0/macos/libexec/rcc

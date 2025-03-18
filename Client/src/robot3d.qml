@@ -54,31 +54,58 @@ View3D {
             castsShadow: true
         }
         
-        // Link1 Model
+        // Link1 Model (Base)
         Node {
             id: link1_node
-            eulerRotation.z: joint1Angle  // 将第一个滑条的值绑定到节点的Z轴旋转
+            // eulerRotation.z: joint1Angle  // 将第一个滑条的值绑定到节点的Z轴旋转
             scale: Qt.vector3d(100, 100, 100)  // 将模型放大100倍
             
             // 材质定义
             PrincipledMaterial {
                 id: link1_material
-                baseColor: "#808080"
-                metalness: 0.3
-                roughness: 0.4
+                baseColor: "#FFF5E6"  // 奶白色
+                metalness: 0.0        // 降低金属感
+                roughness: 0.7        // 增加粗糙度，减少反光
+                opacity: 1.0          // 完全不透明
+                specularAmount: 0.3   // 适度的高光反射
             }
             
             // Mesh模型
             Model {
                 id: base_model
-                source: "model/meshes/base_mesh.mesh"
+                source: "./model/meshes/base_mesh.mesh"  // 使用相对路径
                 materials: [link1_material]
             }
             
             Model {
                 id: base_1_model
-                source: "model/meshes/base__1__mesh.mesh"
+                source: "./model/meshes/base__1__mesh.mesh"  // 使用相对路径
                 materials: [link1_material]
+            }
+        }
+
+        // Link2 Model (独立节点)
+        Node {
+            id: link2_node
+            eulerRotation.x: 0
+            eulerRotation.y: 0
+            eulerRotation.z: joint1Angle
+            scale: Qt.vector3d(100, 100, 100)  // 与link1相同的缩放
+            position: Qt.vector3d(0, 0, 700)  // 放置在link1上方
+            
+            // 使用相同的材质
+            Model {
+                id: link2_model
+                source: "./model/meshes/__1_mesh.mesh"
+                materials: [link1_material]
+                eulerRotation: Qt.vector3d(90, 0, 0)  // 模型自身绕Y轴旋转180度调整朝向
+            }
+            
+            Model {
+                id: link2_1_model
+                source: "./model/meshes/__2_mesh.mesh"
+                materials: [link1_material]
+                eulerRotation: Qt.vector3d(90, 0, 0)  // 模型自身绕Y轴旋转180度调整朝向
             }
         }
     }
@@ -177,4 +204,10 @@ View3D {
         }
     }
 
+    Component.onCompleted: {
+        console.log("QML loaded successfully")
+        console.log("Camera position:", camera.position)
+        console.log("Camera rotation:", camera.eulerRotation)
+        console.log("Link2 position:", link2_node.position)
+    }
 }
