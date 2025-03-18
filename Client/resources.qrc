@@ -2,5 +2,7 @@
 <RCC version="1.0">
     <qresource prefix="/">
         <file>src/robot3d.qml</file>
+        <file>src/model/meshes/base_mesh.mesh</file>
+        <file>src/model/meshes/base__1__mesh.mesh</file>
     </qresource>
-</RCC> 
+</RCC>

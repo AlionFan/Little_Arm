@@ -79,6 +79,8 @@ can_client_autogen/timestamp: CMakeFiles/can_client.dir/compiler_depend.ts
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/resources.qrc
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/can_client_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/robot3d.qml
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/model/meshes/base_mesh.mesh
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/model/meshes/base__1__mesh.mesh
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Qt/6.8.0/macos/libexec/rcc
 can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Qt/6.8.0/macos/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"

@@ -54,20 +54,31 @@ View3D {
             castsShadow: true
         }
         
-        // Red Cube
-        Model {
-            id: redCube
-            x: 0
-            y: 0
-            z: 0
-            scale: Qt.vector3d(1, 1, 1)
-            source: "#Cube"
-            // 将第一个滑条的值绑定到红色方块的Z轴旋转
-            eulerRotation.z: joint1Angle
-            materials: PrincipledMaterial {
-                baseColor: "red"
-                metalness: 0.1
-                roughness: 0.5
+        // Link1 Model
+        Node {
+            id: link1_node
+            eulerRotation.z: joint1Angle  // 将第一个滑条的值绑定到节点的Z轴旋转
+            scale: Qt.vector3d(100, 100, 100)  // 将模型放大100倍
+            
+            // 材质定义
+            PrincipledMaterial {
+                id: link1_material
+                baseColor: "#808080"
+                metalness: 0.3
+                roughness: 0.4
+            }
+            
+            // Mesh模型
+            Model {
+                id: base_model
+                source: "model/meshes/base_mesh.mesh"
+                materials: [link1_material]
+            }
+            
+            Model {
+                id: base_1_model
+                source: "model/meshes/base__1__mesh.mesh"
+                materials: [link1_material]
             }
         }
     }
@@ -75,15 +86,15 @@ View3D {
     // Camera
     PerspectiveCamera{
         id: camera
-        x: 500
-        y: 250
-        z: 1500
+        x: 500  // 调整相机位置，使其能够看到放大后的模型
+        y: 1250
+        z: 4000
         eulerRotation.x: 0
         eulerRotation.y: 0
         eulerRotation.z: 0
 
         clipNear: 0
-        clipFar: 3000
+        clipFar: 30000  // 增加远裁剪面距离，确保能看到整个放大后的模型
         fieldOfView: 60
         fieldOfViewOrientation: Camera.Horizontal
     }
