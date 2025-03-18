@@ -27,6 +27,35 @@ View3D {
         gridColor: "black"
         gridOpacity: 0.1
     }
+    
+    // Light
+    DirectionalLight {
+        id: directionalLight
+        x: 0
+        y: 0
+        z: 1000
+        eulerRotation.x: -30
+        eulerRotation.y: -70
+        eulerRotation.z: 0
+        brightness: 1.0
+        ambientColor: Qt.rgba(0.1, 0.1, 0.1, 1.0)
+        castsShadow: true
+    }
+    
+    // Red Cube
+    Model {
+        id: redCube
+        x: 0
+        y: 0
+        z: 0
+        scale: Qt.vector3d(1, 1, 1)
+        source: "#Cube"
+        materials: PrincipledMaterial {
+            baseColor: "red"
+            metalness: 0.1
+            roughness: 0.5
+        }
+    }
 
     
     // Camera
@@ -89,18 +118,18 @@ View3D {
         }
         onPositionChanged: {
             if (middlePress) {
-                let intercalX = mouse.x - middleCx
-                let intercalY = mouse.y - middleCy
-                cameraNode.eulerRotation.x = cameraNode.eulerRotation.x - intercalY
-                cameraNode.eulerRotation.y = cameraNode.eulerRotation.y - intercalX
+                let deltaX = mouse.x - middleCx
+                let deltaY = mouse.y - middleCy
+                camera.eulerRotation.x = camera.eulerRotation.x - deltaY
+                camera.eulerRotation.y = camera.eulerRotation.y - deltaX
                 middleCx = mouse.x
                 middleCy = mouse.y
             }
             if (rightPress) {
-                let intervolX = mouse.x - rightCx
-                let intervolY = mouse.y - rightCy
-                camera.x = camera.x - (0.000027 * intervolX * camera.z * camera.fieldOfView)
-                camera.y = camera.y + (0.000027 * intervolY * camera.z * camera.fieldOfView)
+                let deltaX = mouse.x - rightCx
+                let deltaY = mouse.y - rightCy
+                camera.x = camera.x - (0.000027 * deltaX * camera.z * camera.fieldOfView)
+                camera.y = camera.y + (0.000027 * deltaY * camera.z * camera.fieldOfView)
                 rightCx = mouse.x
                 rightCy = mouse.y
             }
@@ -116,10 +145,13 @@ View3D {
         }
 
         onWheel: {
-            if (wheel.angleDelta.y > 0)
-                camera.z = camera.z * 1.1
-            else
-                camera.z = camera.z * 0.9
+            if (wheel.angleDelta.y > 0) {
+                // 放大时限制最小距离
+                camera.z = Math.max(100, camera.z * 0.9)
+            } else {
+                // 缩小时限制最大距离
+                camera.z = Math.min(3000, camera.z * 1.1)
+            }
         }
     }
 }
