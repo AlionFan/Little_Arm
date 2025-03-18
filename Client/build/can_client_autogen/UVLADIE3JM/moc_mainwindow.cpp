@@ -52,7 +52,15 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "toggleMessageCollapse",
     "checked",
     "updateCollapseInterval",
-    "value"
+    "value",
+    "onJoint1SliderChanged",
+    "onJoint2SliderChanged",
+    "onJoint3SliderChanged",
+    "onJoint4SliderChanged",
+    "onJoint1SpinBoxChanged",
+    "onJoint2SpinBoxChanged",
+    "onJoint3SpinBoxChanged",
+    "onJoint4SpinBoxChanged"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -65,7 +73,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      19,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -73,17 +81,25 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   80,    2, 0x08,    1 /* Private */,
-       3,    0,   81,    2, 0x08,    2 /* Private */,
-       4,    0,   82,    2, 0x08,    3 /* Private */,
-       5,    0,   83,    2, 0x08,    4 /* Private */,
-       6,    0,   84,    2, 0x08,    5 /* Private */,
-       7,    0,   85,    2, 0x08,    6 /* Private */,
-       8,    1,   86,    2, 0x08,    7 /* Private */,
-      11,    0,   89,    2, 0x08,    9 /* Private */,
-      12,    1,   90,    2, 0x08,   10 /* Private */,
-      14,    1,   93,    2, 0x08,   12 /* Private */,
-      16,    1,   96,    2, 0x08,   14 /* Private */,
+       1,    0,  128,    2, 0x08,    1 /* Private */,
+       3,    0,  129,    2, 0x08,    2 /* Private */,
+       4,    0,  130,    2, 0x08,    3 /* Private */,
+       5,    0,  131,    2, 0x08,    4 /* Private */,
+       6,    0,  132,    2, 0x08,    5 /* Private */,
+       7,    0,  133,    2, 0x08,    6 /* Private */,
+       8,    1,  134,    2, 0x08,    7 /* Private */,
+      11,    0,  137,    2, 0x08,    9 /* Private */,
+      12,    1,  138,    2, 0x08,   10 /* Private */,
+      14,    1,  141,    2, 0x08,   12 /* Private */,
+      16,    1,  144,    2, 0x08,   14 /* Private */,
+      18,    1,  147,    2, 0x08,   16 /* Private */,
+      19,    1,  150,    2, 0x08,   18 /* Private */,
+      20,    1,  153,    2, 0x08,   20 /* Private */,
+      21,    1,  156,    2, 0x08,   22 /* Private */,
+      22,    1,  159,    2, 0x08,   24 /* Private */,
+      23,    1,  162,    2, 0x08,   26 /* Private */,
+      24,    1,  165,    2, 0x08,   28 /* Private */,
+      25,    1,  168,    2, 0x08,   30 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -96,6 +112,14 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,   13,
     QMetaType::Void, QMetaType::Bool,   15,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::Int,   17,
     QMetaType::Void, QMetaType::Int,   17,
 
        0        // eod
@@ -135,6 +159,30 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<bool, std::false_type>,
         // method 'updateCollapseInterval'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint1SliderChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint2SliderChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint3SliderChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint4SliderChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint1SpinBoxChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint2SpinBoxChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint3SpinBoxChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onJoint4SpinBoxChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
@@ -157,6 +205,14 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 8: _t->sendPresetMessage((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 9: _t->toggleMessageCollapse((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         case 10: _t->updateCollapseInterval((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 11: _t->onJoint1SliderChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 12: _t->onJoint2SliderChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 13: _t->onJoint3SliderChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 14: _t->onJoint4SliderChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 15: _t->onJoint1SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 16: _t->onJoint2SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 17: _t->onJoint3SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 18: _t->onJoint4SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -192,13 +248,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 19)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 19;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 19)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 19;
     }
     return _id;
 }

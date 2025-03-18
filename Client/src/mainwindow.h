@@ -6,6 +6,7 @@
 #include <QTimer>
 #include <QMap>
 #include <QString>
+#include <QStringList>
 
 namespace Ui {
 class MainWindow;
@@ -19,6 +20,7 @@ public:
     ~MainWindow();
 
 private slots:
+    // CAN通信相关槽
     void connectToServer();
     void disconnectFromServer();
     void sendCANMessage();
@@ -31,6 +33,16 @@ private slots:
     void toggleMessageCollapse(bool checked);
     void updateCollapseInterval(int value);
 
+    // 关节控制相关槽
+    void onJoint1SliderChanged(int value);
+    void onJoint2SliderChanged(int value);
+    void onJoint3SliderChanged(int value);
+    void onJoint4SliderChanged(int value);
+    void onJoint1SpinBoxChanged(int value);
+    void onJoint2SpinBoxChanged(int value);
+    void onJoint3SpinBoxChanged(int value);
+    void onJoint4SpinBoxChanged(int value);
+
 private:
     Ui::MainWindow *ui;
     QTcpSocket *socket;
@@ -42,12 +54,21 @@ private:
     QMap<QString, QString> lastMessage;
     QMap<int, QString> presetMessages;
 
+    // 新增：用于跟踪CAN ID分类
+    QMap<QString, QStringList> canIdCategories;  // 存储每个CAN ID的最近3条消息
+    QStringList canIdOrder;  // 保持CAN ID的显示顺序
+
     void setupUi();
     void setupConnections();
+    void setupJointConnections();
+    void setupPresetButtons();
+    void setupStyles();
     void loadPresetMessages();
     void savePresetMessages();
-    void setupPresetButtons();
+    void appendTxMessage(const QString &message);
+    void appendRxMessage(const QString &message);
     QString formatCollapsedMessage(const QString& message, int count);
+    QString formatCanData(const QString &data);
 };
 
 #endif // MAINWINDOW_H 

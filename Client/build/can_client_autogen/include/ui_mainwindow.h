@@ -19,9 +19,11 @@
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
@@ -32,6 +34,9 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QHBoxLayout *horizontalLayout_5;
+    QTabWidget *tabWidget;
+    QWidget *canTab;
     QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout;
     QLabel *label;
@@ -65,11 +70,37 @@ public:
     QHBoxLayout *horizontalLayout_4;
     QCheckBox *collapseCheckBox;
     QSpinBox *collapseIntervalSpinBox;
+    QCheckBox *showTimeCheckBox;
     QSpacerItem *horizontalSpacer_2;
-    QTextEdit *monitorText;
+    QHBoxLayout *monitorLayout;
+    QGroupBox *txGroupBox;
+    QVBoxLayout *verticalLayout_4;
+    QTextEdit *txMonitorText;
+    QGroupBox *rxGroupBox;
+    QVBoxLayout *verticalLayout_5;
+    QTextEdit *rxMonitorText;
     QHBoxLayout *horizontalLayout_3;
     QPushButton *monitorButton;
     QSpacerItem *horizontalSpacer;
+    QWidget *jointTab;
+    QVBoxLayout *verticalLayout_41;
+    QGroupBox *joint1Group;
+    QHBoxLayout *horizontalLayout_6;
+    QSlider *joint1Slider;
+    QSpinBox *joint1SpinBox;
+    QGroupBox *joint2Group;
+    QHBoxLayout *horizontalLayout_7;
+    QSlider *joint2Slider;
+    QSpinBox *joint2SpinBox;
+    QGroupBox *joint3Group;
+    QHBoxLayout *horizontalLayout_8;
+    QSlider *joint3Slider;
+    QSpinBox *joint3SpinBox;
+    QGroupBox *joint4Group;
+    QHBoxLayout *horizontalLayout_9;
+    QSlider *joint4Slider;
+    QSpinBox *joint4SpinBox;
+    QSpacerItem *verticalSpacer;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -79,36 +110,42 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        verticalLayout = new QVBoxLayout(centralwidget);
+        horizontalLayout_5 = new QHBoxLayout(centralwidget);
+        horizontalLayout_5->setObjectName("horizontalLayout_5");
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName("tabWidget");
+        canTab = new QWidget();
+        canTab->setObjectName("canTab");
+        verticalLayout = new QVBoxLayout(canTab);
         verticalLayout->setObjectName("verticalLayout");
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName("horizontalLayout");
-        label = new QLabel(centralwidget);
+        label = new QLabel(canTab);
         label->setObjectName("label");
 
         horizontalLayout->addWidget(label);
 
-        serverIpEdit = new QLineEdit(centralwidget);
+        serverIpEdit = new QLineEdit(canTab);
         serverIpEdit->setObjectName("serverIpEdit");
 
         horizontalLayout->addWidget(serverIpEdit);
 
-        label_2 = new QLabel(centralwidget);
+        label_2 = new QLabel(canTab);
         label_2->setObjectName("label_2");
 
         horizontalLayout->addWidget(label_2);
 
-        serverPortEdit = new QLineEdit(centralwidget);
+        serverPortEdit = new QLineEdit(canTab);
         serverPortEdit->setObjectName("serverPortEdit");
 
         horizontalLayout->addWidget(serverPortEdit);
 
-        connectButton = new QPushButton(centralwidget);
+        connectButton = new QPushButton(canTab);
         connectButton->setObjectName("connectButton");
 
         horizontalLayout->addWidget(connectButton);
 
-        disconnectButton = new QPushButton(centralwidget);
+        disconnectButton = new QPushButton(canTab);
         disconnectButton->setObjectName("disconnectButton");
 
         horizontalLayout->addWidget(disconnectButton);
@@ -116,7 +153,7 @@ public:
 
         verticalLayout->addLayout(horizontalLayout);
 
-        groupBox = new QGroupBox(centralwidget);
+        groupBox = new QGroupBox(canTab);
         groupBox->setObjectName("groupBox");
         verticalLayout_2 = new QVBoxLayout(groupBox);
         verticalLayout_2->setObjectName("verticalLayout_2");
@@ -210,7 +247,7 @@ public:
 
         verticalLayout->addWidget(groupBox);
 
-        groupBox_2 = new QGroupBox(centralwidget);
+        groupBox_2 = new QGroupBox(canTab);
         groupBox_2->setObjectName("groupBox_2");
         verticalLayout_3 = new QVBoxLayout(groupBox_2);
         verticalLayout_3->setObjectName("verticalLayout_3");
@@ -229,6 +266,12 @@ public:
 
         horizontalLayout_4->addWidget(collapseIntervalSpinBox);
 
+        showTimeCheckBox = new QCheckBox(groupBox_2);
+        showTimeCheckBox->setObjectName("showTimeCheckBox");
+        showTimeCheckBox->setChecked(false);
+
+        horizontalLayout_4->addWidget(showTimeCheckBox);
+
         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout_4->addItem(horizontalSpacer_2);
@@ -236,11 +279,36 @@ public:
 
         verticalLayout_3->addLayout(horizontalLayout_4);
 
-        monitorText = new QTextEdit(groupBox_2);
-        monitorText->setObjectName("monitorText");
-        monitorText->setReadOnly(true);
+        monitorLayout = new QHBoxLayout();
+        monitorLayout->setObjectName("monitorLayout");
+        txGroupBox = new QGroupBox(groupBox_2);
+        txGroupBox->setObjectName("txGroupBox");
+        verticalLayout_4 = new QVBoxLayout(txGroupBox);
+        verticalLayout_4->setObjectName("verticalLayout_4");
+        txMonitorText = new QTextEdit(txGroupBox);
+        txMonitorText->setObjectName("txMonitorText");
+        txMonitorText->setReadOnly(true);
 
-        verticalLayout_3->addWidget(monitorText);
+        verticalLayout_4->addWidget(txMonitorText);
+
+
+        monitorLayout->addWidget(txGroupBox);
+
+        rxGroupBox = new QGroupBox(groupBox_2);
+        rxGroupBox->setObjectName("rxGroupBox");
+        verticalLayout_5 = new QVBoxLayout(rxGroupBox);
+        verticalLayout_5->setObjectName("verticalLayout_5");
+        rxMonitorText = new QTextEdit(rxGroupBox);
+        rxMonitorText->setObjectName("rxMonitorText");
+        rxMonitorText->setReadOnly(true);
+
+        verticalLayout_5->addWidget(rxMonitorText);
+
+
+        monitorLayout->addWidget(rxGroupBox);
+
+
+        verticalLayout_3->addLayout(monitorLayout);
 
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName("horizontalLayout_3");
@@ -259,6 +327,111 @@ public:
 
         verticalLayout->addWidget(groupBox_2);
 
+        tabWidget->addTab(canTab, QString());
+        jointTab = new QWidget();
+        jointTab->setObjectName("jointTab");
+        verticalLayout_41 = new QVBoxLayout(jointTab);
+        verticalLayout_41->setObjectName("verticalLayout_41");
+        joint1Group = new QGroupBox(jointTab);
+        joint1Group->setObjectName("joint1Group");
+        horizontalLayout_6 = new QHBoxLayout(joint1Group);
+        horizontalLayout_6->setObjectName("horizontalLayout_6");
+        joint1Slider = new QSlider(joint1Group);
+        joint1Slider->setObjectName("joint1Slider");
+        joint1Slider->setMinimum(-90);
+        joint1Slider->setMaximum(90);
+        joint1Slider->setOrientation(Qt::Horizontal);
+        joint1Slider->setTickPosition(QSlider::TicksBelow);
+
+        horizontalLayout_6->addWidget(joint1Slider);
+
+        joint1SpinBox = new QSpinBox(joint1Group);
+        joint1SpinBox->setObjectName("joint1SpinBox");
+        joint1SpinBox->setMinimum(-90);
+        joint1SpinBox->setMaximum(90);
+
+        horizontalLayout_6->addWidget(joint1SpinBox);
+
+
+        verticalLayout_41->addWidget(joint1Group);
+
+        joint2Group = new QGroupBox(jointTab);
+        joint2Group->setObjectName("joint2Group");
+        horizontalLayout_7 = new QHBoxLayout(joint2Group);
+        horizontalLayout_7->setObjectName("horizontalLayout_7");
+        joint2Slider = new QSlider(joint2Group);
+        joint2Slider->setObjectName("joint2Slider");
+        joint2Slider->setMinimum(-90);
+        joint2Slider->setMaximum(90);
+        joint2Slider->setOrientation(Qt::Horizontal);
+        joint2Slider->setTickPosition(QSlider::TicksBelow);
+
+        horizontalLayout_7->addWidget(joint2Slider);
+
+        joint2SpinBox = new QSpinBox(joint2Group);
+        joint2SpinBox->setObjectName("joint2SpinBox");
+        joint2SpinBox->setMinimum(-90);
+        joint2SpinBox->setMaximum(90);
+
+        horizontalLayout_7->addWidget(joint2SpinBox);
+
+
+        verticalLayout_41->addWidget(joint2Group);
+
+        joint3Group = new QGroupBox(jointTab);
+        joint3Group->setObjectName("joint3Group");
+        horizontalLayout_8 = new QHBoxLayout(joint3Group);
+        horizontalLayout_8->setObjectName("horizontalLayout_8");
+        joint3Slider = new QSlider(joint3Group);
+        joint3Slider->setObjectName("joint3Slider");
+        joint3Slider->setMinimum(-90);
+        joint3Slider->setMaximum(90);
+        joint3Slider->setOrientation(Qt::Horizontal);
+        joint3Slider->setTickPosition(QSlider::TicksBelow);
+
+        horizontalLayout_8->addWidget(joint3Slider);
+
+        joint3SpinBox = new QSpinBox(joint3Group);
+        joint3SpinBox->setObjectName("joint3SpinBox");
+        joint3SpinBox->setMinimum(-90);
+        joint3SpinBox->setMaximum(90);
+
+        horizontalLayout_8->addWidget(joint3SpinBox);
+
+
+        verticalLayout_41->addWidget(joint3Group);
+
+        joint4Group = new QGroupBox(jointTab);
+        joint4Group->setObjectName("joint4Group");
+        horizontalLayout_9 = new QHBoxLayout(joint4Group);
+        horizontalLayout_9->setObjectName("horizontalLayout_9");
+        joint4Slider = new QSlider(joint4Group);
+        joint4Slider->setObjectName("joint4Slider");
+        joint4Slider->setMinimum(-90);
+        joint4Slider->setMaximum(90);
+        joint4Slider->setOrientation(Qt::Horizontal);
+        joint4Slider->setTickPosition(QSlider::TicksBelow);
+
+        horizontalLayout_9->addWidget(joint4Slider);
+
+        joint4SpinBox = new QSpinBox(joint4Group);
+        joint4SpinBox->setObjectName("joint4SpinBox");
+        joint4SpinBox->setMinimum(-90);
+        joint4SpinBox->setMaximum(90);
+
+        horizontalLayout_9->addWidget(joint4SpinBox);
+
+
+        verticalLayout_41->addWidget(joint4Group);
+
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_41->addItem(verticalSpacer);
+
+        tabWidget->addTab(jointTab, QString());
+
+        horizontalLayout_5->addWidget(tabWidget);
+
         MainWindow->setCentralWidget(centralwidget);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName("statusBar");
@@ -266,12 +439,15 @@ public:
 
         retranslateUi(MainWindow);
 
+        tabWidget->setCurrentIndex(0);
+
+
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "CAN Client", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "LittleArm Controller", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Server IP:", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Port:", nullptr));
         connectButton->setText(QCoreApplication::translate("MainWindow", "Connect", nullptr));
@@ -294,7 +470,22 @@ public:
         groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "Monitor", nullptr));
         collapseCheckBox->setText(QCoreApplication::translate("MainWindow", "Collapse Messages", nullptr));
         collapseIntervalSpinBox->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));
+        showTimeCheckBox->setText(QCoreApplication::translate("MainWindow", "Show Time", nullptr));
+        txGroupBox->setTitle(QCoreApplication::translate("MainWindow", "TX (Sent)", nullptr));
+        txMonitorText->setStyleSheet(QCoreApplication::translate("MainWindow", "font-family: Consolas, Monaco, monospace;", nullptr));
+        rxGroupBox->setTitle(QCoreApplication::translate("MainWindow", "RX (Received)", nullptr));
+        rxMonitorText->setStyleSheet(QCoreApplication::translate("MainWindow", "font-family: Consolas, Monaco, monospace;", nullptr));
         monitorButton->setText(QCoreApplication::translate("MainWindow", "Start Monitor", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(canTab), QCoreApplication::translate("MainWindow", "CAN Monitor", nullptr));
+        joint1Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 1 (Base)", nullptr));
+        joint1SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
+        joint2Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 2 (Shoulder)", nullptr));
+        joint2SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
+        joint3Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 3 (Elbow)", nullptr));
+        joint3SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
+        joint4Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 4 (Wrist)", nullptr));
+        joint4SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(jointTab), QCoreApplication::translate("MainWindow", "Joint Control", nullptr));
     } // retranslateUi
 
 };

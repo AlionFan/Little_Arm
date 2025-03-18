@@ -1136,6 +1136,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbasictimer.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QStringList \
   /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/include/ui_mainwindow.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication \
@@ -1176,6 +1177,9 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSlider \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSpacerItem \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSpinBox \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qspinbox.h \
@@ -1184,6 +1188,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QStatusBar \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstatusbar.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QTabWidget \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QTextEdit \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
@@ -1253,4 +1258,9 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMenu \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qmenu.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QAction
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QAction \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QStyle \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QStyleFactory \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstylefactory.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRegularExpression
