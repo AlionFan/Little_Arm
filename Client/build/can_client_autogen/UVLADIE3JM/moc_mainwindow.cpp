@@ -60,7 +60,10 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "onJoint1SpinBoxChanged",
     "onJoint2SpinBoxChanged",
     "onJoint3SpinBoxChanged",
-    "onJoint4SpinBoxChanged"
+    "onJoint4SpinBoxChanged",
+    "onCanDataEditChanged",
+    "text",
+    "onCanDataSplitChanged"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -73,7 +76,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      19,   14, // methods
+      21,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -81,25 +84,27 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,  128,    2, 0x08,    1 /* Private */,
-       3,    0,  129,    2, 0x08,    2 /* Private */,
-       4,    0,  130,    2, 0x08,    3 /* Private */,
-       5,    0,  131,    2, 0x08,    4 /* Private */,
-       6,    0,  132,    2, 0x08,    5 /* Private */,
-       7,    0,  133,    2, 0x08,    6 /* Private */,
-       8,    1,  134,    2, 0x08,    7 /* Private */,
-      11,    0,  137,    2, 0x08,    9 /* Private */,
-      12,    1,  138,    2, 0x08,   10 /* Private */,
-      14,    1,  141,    2, 0x08,   12 /* Private */,
-      16,    1,  144,    2, 0x08,   14 /* Private */,
-      18,    1,  147,    2, 0x08,   16 /* Private */,
-      19,    1,  150,    2, 0x08,   18 /* Private */,
-      20,    1,  153,    2, 0x08,   20 /* Private */,
-      21,    1,  156,    2, 0x08,   22 /* Private */,
-      22,    1,  159,    2, 0x08,   24 /* Private */,
-      23,    1,  162,    2, 0x08,   26 /* Private */,
-      24,    1,  165,    2, 0x08,   28 /* Private */,
-      25,    1,  168,    2, 0x08,   30 /* Private */,
+       1,    0,  140,    2, 0x08,    1 /* Private */,
+       3,    0,  141,    2, 0x08,    2 /* Private */,
+       4,    0,  142,    2, 0x08,    3 /* Private */,
+       5,    0,  143,    2, 0x08,    4 /* Private */,
+       6,    0,  144,    2, 0x08,    5 /* Private */,
+       7,    0,  145,    2, 0x08,    6 /* Private */,
+       8,    1,  146,    2, 0x08,    7 /* Private */,
+      11,    0,  149,    2, 0x08,    9 /* Private */,
+      12,    1,  150,    2, 0x08,   10 /* Private */,
+      14,    1,  153,    2, 0x08,   12 /* Private */,
+      16,    1,  156,    2, 0x08,   14 /* Private */,
+      18,    1,  159,    2, 0x08,   16 /* Private */,
+      19,    1,  162,    2, 0x08,   18 /* Private */,
+      20,    1,  165,    2, 0x08,   20 /* Private */,
+      21,    1,  168,    2, 0x08,   22 /* Private */,
+      22,    1,  171,    2, 0x08,   24 /* Private */,
+      23,    1,  174,    2, 0x08,   26 /* Private */,
+      24,    1,  177,    2, 0x08,   28 /* Private */,
+      25,    1,  180,    2, 0x08,   30 /* Private */,
+      26,    1,  183,    2, 0x08,   32 /* Private */,
+      28,    0,  186,    2, 0x08,   34 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -121,6 +126,8 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
     QMetaType::Void, QMetaType::Int,   17,
     QMetaType::Void, QMetaType::Int,   17,
     QMetaType::Void, QMetaType::Int,   17,
+    QMetaType::Void, QMetaType::QString,   27,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -183,7 +190,12 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'onJoint4SpinBoxChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onCanDataEditChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'onCanDataSplitChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -213,6 +225,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 16: _t->onJoint2SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 17: _t->onJoint3SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 18: _t->onJoint4SpinBoxChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 19: _t->onCanDataEditChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 20: _t->onCanDataSplitChanged(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -248,13 +262,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 19)
+        if (_id < 21)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 19;
+        _id -= 21;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 19)
+        if (_id < 21)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 19;
+        _id -= 21;
     }
     return _id;
 }

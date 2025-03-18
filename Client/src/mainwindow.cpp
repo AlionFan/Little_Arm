@@ -10,6 +10,7 @@
 #include <QStyle>
 #include <QStyleFactory>
 #include <QRegularExpression>
+#include <QInputDialog>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -36,12 +37,6 @@ MainWindow::~MainWindow()
 void MainWindow::setupUi()
 {
     ui->setupUi(this);
-    
-    // 设置默认值
-    ui->serverIpEdit->setText("192.168.66.202");  // 替换为树莓派的IP
-    ui->serverPortEdit->setText("5000");
-    ui->canIdEdit->setText("027");
-    ui->canDataEdit->setText("0800000000000000");
     
     // 禁用发送按钮，直到连接建立
     ui->sendButton->setEnabled(false);
@@ -100,6 +95,19 @@ void MainWindow::setupConnections()
         ui->txMonitorText->clear();
         ui->rxMonitorText->clear();
     });
+
+    // 添加数据同步连接
+    connect(ui->canDataEdit, &QLineEdit::textChanged,
+            this, &MainWindow::onCanDataEditChanged);
+    
+    connect(ui->canDataSplit1, &QLineEdit::textChanged,
+            this, &MainWindow::onCanDataSplitChanged);
+    connect(ui->canDataSplit2, &QLineEdit::textChanged,
+            this, &MainWindow::onCanDataSplitChanged);
+    connect(ui->canDataSplit3, &QLineEdit::textChanged,
+            this, &MainWindow::onCanDataSplitChanged);
+    connect(ui->canDataSplit4, &QLineEdit::textChanged,
+            this, &MainWindow::onCanDataSplitChanged);
 }
 
 void MainWindow::setupPresetButtons()
@@ -122,6 +130,7 @@ void MainWindow::setupPresetButtons()
             QMenu menu(button);
             QAction* setAction = menu.addAction("设置为预设");
             QAction* clearAction = menu.addAction("清除预设");
+            QAction* editDisplayAction = menu.addAction("修改显示");
             
             QAction* selectedAction = menu.exec(button->mapToGlobal(pos));
             
@@ -142,6 +151,17 @@ void MainWindow::setupPresetButtons()
                 button->setText(QString("Preset %1").arg(i + 1));
                 savePresetMessages();
                 QMessageBox::information(this, "成功", "预设消息已清除");
+            } else if (selectedAction == editDisplayAction) {
+                bool ok;
+                QString currentText = button->text();
+                QString newText = QInputDialog::getText(this, "修改显示",
+                    "请输入新的显示内容:", QLineEdit::Normal, currentText, &ok);
+                if (ok && !newText.isEmpty()) {
+                    button->setText(newText);
+                    // 保存显示文本到设置中
+                    QSettings settings("CANClient", "PresetDisplay");
+                    settings.setValue(QString("Preset%1Display").arg(i + 1), newText);
+                }
             }
         });
 
@@ -150,7 +170,14 @@ void MainWindow::setupPresetButtons()
             QString message = presetMessages[i + 1];
             QStringList parts = message.split('#');
             if (parts.size() == 2) {
-                button->setText(QString("Preset %1: %2").arg(i + 1).arg(parts[0].trimmed()));
+                // 尝试从设置中读取自定义显示文本
+                QSettings settings("CANClient", "PresetDisplay");
+                QString customDisplay = settings.value(QString("Preset%1Display").arg(i + 1)).toString();
+                if (!customDisplay.isEmpty()) {
+                    button->setText(customDisplay);
+                } else {
+                    button->setText(QString("Preset %1: %2").arg(i + 1).arg(parts[0].trimmed()));
+                }
             }
         }
     }
@@ -184,7 +211,7 @@ void MainWindow::sendPresetMessage(int presetIndex)
         QStringList parts = message.split('#');
         if (parts.size() == 2) {
             ui->canIdEdit->setText(parts[0].trimmed());
-            ui->canDataEdit->setText(parts[1].trimmed());
+            ui->canDataEdit->setText(parts[1].trimmed().remove(" "));
             sendCANMessage();
         }
     }
@@ -452,118 +479,6 @@ void MainWindow::onJoint4SpinBoxChanged(int value)
 
 void MainWindow::setupStyles()
 {
-    // 设置窗口大小
-    resize(1080, 720);
-    setMinimumSize(1080, 720);
-
-    // 设置全局样式
-    QString styleSheet = R"(
-        QMainWindow {
-            background-color: #f0f0f0;
-        }
-        QGroupBox {
-            border: 2px solid #cccccc;
-            border-radius: 6px;
-            margin-top: 1ex;
-            font-weight: bold;
-            background-color: #ffffff;
-        }
-        QGroupBox::title {
-            subcontrol-origin: margin;
-            left: 10px;
-            padding: 0 3px;
-            color: #333333;
-        }
-        QPushButton {
-            background-color: #0078d4;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            padding: 5px 15px;
-            min-height: 25px;
-        }
-        QPushButton:hover {
-            background-color: #1084d8;
-        }
-        QPushButton:pressed {
-            background-color: #006cbd;
-        }
-        QLineEdit {
-            padding: 4px;
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-            background-color: white;
-        }
-        QTextEdit {
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-            background-color: white;
-            font-family: "Consolas", "Monaco", monospace;
-        }
-        QSlider::groove:horizontal {
-            border: 1px solid #999999;
-            height: 8px;
-            background: #ffffff;
-            margin: 2px 0;
-            border-radius: 4px;
-        }
-        QSlider::handle:horizontal {
-            background: #0078d4;
-            border: none;
-            width: 18px;
-            margin: -5px 0;
-            border-radius: 9px;
-        }
-        QSlider::handle:horizontal:hover {
-            background: #1084d8;
-        }
-        QSpinBox {
-            padding: 4px;
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-            background-color: white;
-        }
-        QTabWidget::pane {
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-            background-color: white;
-        }
-        QTabBar::tab {
-            background-color: #f0f0f0;
-            border: 1px solid #cccccc;
-            border-bottom: none;
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-            padding: 8px 16px;
-            margin-right: 2px;
-        }
-        QTabBar::tab:selected {
-            background-color: white;
-            border-bottom: none;
-        }
-        QTabBar::tab:hover {
-            background-color: #e5e5e5;
-        }
-    )";
-
-    setStyleSheet(styleSheet);
-
-    // 设置预设按钮的特殊样式
-    QString presetButtonStyle = R"(
-        QPushButton[objectName^="presetButton"] {
-            background-color: #5c2d91;
-            min-width: 100px;
-        }
-        QPushButton[objectName^="presetButton"]:hover {
-            background-color: #6b3a9e;
-        }
-        QPushButton[objectName^="presetButton"]:pressed {
-            background-color: #4c2277;
-        }
-    )";
-
-    ui->presetGroupBox->setStyleSheet(presetButtonStyle);
-
     // 设置监控文本框的字体
     QFont monitorFont("Consolas", 10);
     ui->txMonitorText->setFont(monitorFont);
@@ -606,4 +521,53 @@ void MainWindow::appendRxMessage(const QString &message)
         formattedMessage = message;
     }
     ui->rxMonitorText->append(formattedMessage);
+}
+
+void MainWindow::onCanDataEditChanged(const QString &text)
+{
+    if (text.length() == 16 && isValidHexString(text)) {
+        updateSplitDataFromMain();
+    }
+}
+
+void MainWindow::onCanDataSplitChanged()
+{
+    QString split1 = ui->canDataSplit1->text().toUpper();
+    QString split2 = ui->canDataSplit2->text().toUpper();
+    QString split3 = ui->canDataSplit3->text().toUpper();
+    QString split4 = ui->canDataSplit4->text().toUpper();
+
+    // 检查所有分段是否都是有效的4位十六进制数
+    if (split1.length() == 4 && split2.length() == 4 && 
+        split3.length() == 4 && split4.length() == 4 &&
+        isValidHexString(split1) && isValidHexString(split2) &&
+        isValidHexString(split3) && isValidHexString(split4)) {
+        updateMainDataFromSplit();
+    }
+}
+
+void MainWindow::updateSplitDataFromMain()
+{
+    QString mainData = ui->canDataEdit->text().toUpper();
+    if (mainData.length() == 16) {
+        ui->canDataSplit1->setText(mainData.mid(0, 4));
+        ui->canDataSplit2->setText(mainData.mid(4, 4));
+        ui->canDataSplit3->setText(mainData.mid(8, 4));
+        ui->canDataSplit4->setText(mainData.mid(12, 4));
+    }
+}
+
+void MainWindow::updateMainDataFromSplit()
+{
+    QString combinedData = ui->canDataSplit1->text() +
+                          ui->canDataSplit2->text() +
+                          ui->canDataSplit3->text() +
+                          ui->canDataSplit4->text();
+    ui->canDataEdit->setText(combinedData.toUpper());
+}
+
+bool MainWindow::isValidHexString(const QString &str)
+{
+    QRegularExpression hexRegex("^[0-9A-Fa-f]+$");
+    return hexRegex.match(str).hasMatch();
 } 

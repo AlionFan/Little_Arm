@@ -1263,4 +1263,6 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstyle.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QStyleFactory \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstylefactory.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRegularExpression
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRegularExpression \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QInputDialog \
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qinputdialog.h

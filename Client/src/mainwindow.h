@@ -43,6 +43,10 @@ private slots:
     void onJoint3SpinBoxChanged(int value);
     void onJoint4SpinBoxChanged(int value);
 
+    // 数据同步相关槽
+    void onCanDataEditChanged(const QString &text);
+    void onCanDataSplitChanged();
+
 private:
     Ui::MainWindow *ui;
     QTcpSocket *socket;
@@ -69,6 +73,11 @@ private:
     void appendRxMessage(const QString &message);
     QString formatCollapsedMessage(const QString& message, int count);
     QString formatCanData(const QString &data);
+
+    // 新增：数据同步辅助函数
+    void updateSplitDataFromMain();
+    void updateMainDataFromSplit();
+    bool isValidHexString(const QString &str);
 };
 
 #endif // MAINWINDOW_H 

@@ -6,12 +6,136 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1080</width>
+    <height>720</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1080</width>
+    <height>720</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>LittleArm Controller</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">* {
+    color: #000000;
+}
+QMainWindow {
+    background-color: #f0f0f0;
+}
+QGroupBox {
+    border: 2px solid #cccccc;
+    border-radius: 6px;
+    margin-top: 1ex;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px;
+    color: #000000;
+}
+QPushButton {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    min-height: 25px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1084d8;
+}
+QPushButton:pressed {
+    background-color: #006cbd;
+}
+QLineEdit {
+    padding: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #000000;
+}
+QTextEdit {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #000000;
+}
+QLabel {
+    color: #000000;
+    font-weight: bold;
+}
+QCheckBox {
+    color: #000000;
+}
+QSpinBox {
+    color: #000000;
+    background-color: white;
+    padding: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 8px;
+    background: #ffffff;
+    margin: 2px 0;
+    border-radius: 4px;
+}
+QSlider::handle:horizontal {
+    background: #0078d4;
+    border: none;
+    width: 18px;
+    margin: -5px 0;
+    border-radius: 9px;
+}
+QSlider::handle:horizontal:hover {
+    background: #1084d8;
+}
+QTabWidget::pane {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+}
+QTabBar::tab {
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 8px 16px;
+    margin-right: 2px;
+    color: #000000;
+}
+QTabBar::tab:selected {
+    background-color: white;
+    color: #000000;
+    font-weight: bold;
+}
+QTabBar::tab:hover {
+    background-color: #e5e5e5;
+}
+QStatusBar {
+    color: #000000;
+}
+QPushButton[objectName^=&quot;presetButton&quot;] {
+    background-color: #5c2d91;
+    color: white;
+    min-width: 100px;
+    font-weight: bold;
+}
+QPushButton[objectName^=&quot;presetButton&quot;]:hover {
+    background-color: #6b3a9e;
+}
+QPushButton[objectName^=&quot;presetButton&quot;]:pressed {
+    background-color: #4c2277;
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -35,7 +159,11 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="serverIpEdit"/>
+           <widget class="QLineEdit" name="serverIpEdit">
+            <property name="text">
+             <string>192.168.66.202</string>
+            </property>
+           </widget>
           </item>
           <item>
            <widget class="QLabel" name="label_2">
@@ -45,7 +173,11 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="serverPortEdit"/>
+           <widget class="QLineEdit" name="serverPortEdit">
+            <property name="text">
+             <string>5000</string>
+            </property>
+           </widget>
           </item>
           <item>
            <widget class="QPushButton" name="connectButton">
@@ -79,7 +211,11 @@
               </widget>
              </item>
              <item>
-              <widget class="QLineEdit" name="canIdEdit"/>
+              <widget class="QLineEdit" name="canIdEdit">
+               <property name="text">
+                <string>027</string>
+               </property>
+              </widget>
              </item>
              <item>
               <widget class="QLabel" name="label_4">
@@ -89,7 +225,11 @@
               </widget>
              </item>
              <item>
-              <widget class="QLineEdit" name="canDataEdit"/>
+              <widget class="QLineEdit" name="canDataEdit">
+               <property name="text">
+                <string>0800000000000000</string>
+               </property>
+              </widget>
              </item>
              <item>
               <widget class="QPushButton" name="sendButton">
@@ -97,6 +237,82 @@
                 <string>Send</string>
                </property>
               </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>Split Data:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="canDataSplit1">
+               <property name="maximumWidth">
+                <number>60</number>
+               </property>
+               <property name="maxLength">
+                <number>4</number>
+               </property>
+               <property name="text">
+                <string>0800</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="canDataSplit2">
+               <property name="maximumWidth">
+                <number>60</number>
+               </property>
+               <property name="maxLength">
+                <number>4</number>
+               </property>
+               <property name="text">
+                <string>0000</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="canDataSplit3">
+               <property name="maximumWidth">
+                <number>60</number>
+               </property>
+               <property name="maxLength">
+                <number>4</number>
+               </property>
+               <property name="text">
+                <string>0000</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="canDataSplit4">
+               <property name="maximumWidth">
+                <number>60</number>
+               </property>
+               <property name="maxLength">
+                <number>4</number>
+               </property>
+               <property name="text">
+                <string>0000</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Orientation::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
              </item>
             </layout>
            </item>
@@ -226,7 +442,7 @@
              <item>
               <spacer name="horizontalSpacer_2">
                <property name="orientation">
-                <enum>Qt::Horizontal</enum>
+                <enum>Qt::Orientation::Horizontal</enum>
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
@@ -248,11 +464,11 @@
                <layout class="QVBoxLayout" name="verticalLayout_4">
                 <item>
                  <widget class="QTextEdit" name="txMonitorText">
+                  <property name="styleSheet">
+                   <string></string>
+                  </property>
                   <property name="readOnly">
                    <bool>true</bool>
-                  </property>
-                  <property name="styleSheet">
-                   <string>font-family: Consolas, Monaco, monospace;</string>
                   </property>
                  </widget>
                 </item>
@@ -267,11 +483,11 @@
                <layout class="QVBoxLayout" name="verticalLayout_5">
                 <item>
                  <widget class="QTextEdit" name="rxMonitorText">
+                  <property name="styleSheet">
+                   <string></string>
+                  </property>
                   <property name="readOnly">
                    <bool>true</bool>
-                  </property>
-                  <property name="styleSheet">
-                   <string>font-family: Consolas, Monaco, monospace;</string>
                   </property>
                  </widget>
                 </item>
@@ -292,7 +508,7 @@
              <item>
               <spacer name="horizontalSpacer">
                <property name="orientation">
-                <enum>Qt::Horizontal</enum>
+                <enum>Qt::Orientation::Horizontal</enum>
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
@@ -329,23 +545,23 @@
               <number>90</number>
              </property>
              <property name="orientation">
-              <enum>Qt::Horizontal</enum>
+              <enum>Qt::Orientation::Horizontal</enum>
              </property>
              <property name="tickPosition">
-              <enum>QSlider::TicksBelow</enum>
+              <enum>QSlider::TickPosition::TicksBelow</enum>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QSpinBox" name="joint1SpinBox">
+             <property name="suffix">
+              <string>°</string>
+             </property>
              <property name="minimum">
               <number>-90</number>
              </property>
              <property name="maximum">
               <number>90</number>
-             </property>
-             <property name="suffix">
-              <string>°</string>
              </property>
             </widget>
            </item>
@@ -367,23 +583,23 @@
               <number>90</number>
              </property>
              <property name="orientation">
-              <enum>Qt::Horizontal</enum>
+              <enum>Qt::Orientation::Horizontal</enum>
              </property>
              <property name="tickPosition">
-              <enum>QSlider::TicksBelow</enum>
+              <enum>QSlider::TickPosition::TicksBelow</enum>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QSpinBox" name="joint2SpinBox">
+             <property name="suffix">
+              <string>°</string>
+             </property>
              <property name="minimum">
               <number>-90</number>
              </property>
              <property name="maximum">
               <number>90</number>
-             </property>
-             <property name="suffix">
-              <string>°</string>
              </property>
             </widget>
            </item>
@@ -405,23 +621,23 @@
               <number>90</number>
              </property>
              <property name="orientation">
-              <enum>Qt::Horizontal</enum>
+              <enum>Qt::Orientation::Horizontal</enum>
              </property>
              <property name="tickPosition">
-              <enum>QSlider::TicksBelow</enum>
+              <enum>QSlider::TickPosition::TicksBelow</enum>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QSpinBox" name="joint3SpinBox">
+             <property name="suffix">
+              <string>°</string>
+             </property>
              <property name="minimum">
               <number>-90</number>
              </property>
              <property name="maximum">
               <number>90</number>
-             </property>
-             <property name="suffix">
-              <string>°</string>
              </property>
             </widget>
            </item>
@@ -443,23 +659,23 @@
               <number>90</number>
              </property>
              <property name="orientation">
-              <enum>Qt::Horizontal</enum>
+              <enum>Qt::Orientation::Horizontal</enum>
              </property>
              <property name="tickPosition">
-              <enum>QSlider::TicksBelow</enum>
+              <enum>QSlider::TickPosition::TicksBelow</enum>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QSpinBox" name="joint4SpinBox">
+             <property name="suffix">
+              <string>°</string>
+             </property>
              <property name="minimum">
               <number>-90</number>
              </property>
              <property name="maximum">
               <number>90</number>
-             </property>
-             <property name="suffix">
-              <string>°</string>
              </property>
             </widget>
            </item>
@@ -469,7 +685,7 @@
         <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
-           <enum>Qt::Vertical</enum>
+           <enum>Qt::Orientation::Vertical</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -489,4 +705,4 @@
  </widget>
  <resources/>
  <connections/>
-</ui> 
+</ui>

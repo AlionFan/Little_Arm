@@ -53,6 +53,13 @@ public:
     QLabel *label_4;
     QLineEdit *canDataEdit;
     QPushButton *sendButton;
+    QHBoxLayout *horizontalLayout_10;
+    QLabel *label_5;
+    QLineEdit *canDataSplit1;
+    QLineEdit *canDataSplit2;
+    QLineEdit *canDataSplit3;
+    QLineEdit *canDataSplit4;
+    QSpacerItem *horizontalSpacer_3;
     QGroupBox *presetGroupBox;
     QGridLayout *presetGridLayout;
     QPushButton *presetButton1;
@@ -107,7 +114,126 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(1080, 720);
+        MainWindow->setMinimumSize(QSize(1080, 720));
+        MainWindow->setStyleSheet(QString::fromUtf8("* {\n"
+"    color: #000000;\n"
+"}\n"
+"QMainWindow {\n"
+"    background-color: #f0f0f0;\n"
+"}\n"
+"QGroupBox {\n"
+"    border: 2px solid #cccccc;\n"
+"    border-radius: 6px;\n"
+"    margin-top: 1ex;\n"
+"    font-weight: bold;\n"
+"    background-color: #ffffff;\n"
+"}\n"
+"QGroupBox::title {\n"
+"    subcontrol-origin: margin;\n"
+"    left: 10px;\n"
+"    padding: 0 3px;\n"
+"    color: #000000;\n"
+"}\n"
+"QPushButton {\n"
+"    background-color: #0078d4;\n"
+"    color: white;\n"
+"    border: none;\n"
+"    border-radius: 4px;\n"
+"    padding: 5px 15px;\n"
+"    min-height: 25px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: #1084d8;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: #006cbd;\n"
+"}\n"
+"QLineEdit {\n"
+"    padding: 4px;\n"
+"    border: 1px solid #cccccc;\n"
+"    border-radius: 4px;\n"
+"    background-color: white;\n"
+"    color: #000000;\n"
+"}\n"
+"QTextEdit {\n"
+"    border: 1px solid #cccccc;\n"
+"    border-radius: 4px;\n"
+"    background-color: white;\n"
+"    c"
+                        "olor: #000000;\n"
+"}\n"
+"QLabel {\n"
+"    color: #000000;\n"
+"    font-weight: bold;\n"
+"}\n"
+"QCheckBox {\n"
+"    color: #000000;\n"
+"}\n"
+"QSpinBox {\n"
+"    color: #000000;\n"
+"    background-color: white;\n"
+"    padding: 4px;\n"
+"    border: 1px solid #cccccc;\n"
+"    border-radius: 4px;\n"
+"}\n"
+"QSlider::groove:horizontal {\n"
+"    border: 1px solid #999999;\n"
+"    height: 8px;\n"
+"    background: #ffffff;\n"
+"    margin: 2px 0;\n"
+"    border-radius: 4px;\n"
+"}\n"
+"QSlider::handle:horizontal {\n"
+"    background: #0078d4;\n"
+"    border: none;\n"
+"    width: 18px;\n"
+"    margin: -5px 0;\n"
+"    border-radius: 9px;\n"
+"}\n"
+"QSlider::handle:horizontal:hover {\n"
+"    background: #1084d8;\n"
+"}\n"
+"QTabWidget::pane {\n"
+"    border: 1px solid #cccccc;\n"
+"    border-radius: 4px;\n"
+"    background-color: white;\n"
+"}\n"
+"QTabBar::tab {\n"
+"    background-color: #f0f0f0;\n"
+"    border: 1px solid #cccccc;\n"
+"    border-bottom: none;\n"
+"    border-top-left-radius: 4px;\n"
+"    border-top-right-radius: "
+                        "4px;\n"
+"    padding: 8px 16px;\n"
+"    margin-right: 2px;\n"
+"    color: #000000;\n"
+"}\n"
+"QTabBar::tab:selected {\n"
+"    background-color: white;\n"
+"    color: #000000;\n"
+"    font-weight: bold;\n"
+"}\n"
+"QTabBar::tab:hover {\n"
+"    background-color: #e5e5e5;\n"
+"}\n"
+"QStatusBar {\n"
+"    color: #000000;\n"
+"}\n"
+"QPushButton[objectName^=\"presetButton\"] {\n"
+"    background-color: #5c2d91;\n"
+"    color: white;\n"
+"    min-width: 100px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"QPushButton[objectName^=\"presetButton\"]:hover {\n"
+"    background-color: #6b3a9e;\n"
+"}\n"
+"QPushButton[objectName^=\"presetButton\"]:pressed {\n"
+"    background-color: #4c2277;\n"
+"}"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         horizontalLayout_5 = new QHBoxLayout(centralwidget);
@@ -186,6 +312,48 @@ public:
 
 
         verticalLayout_2->addLayout(horizontalLayout_2);
+
+        horizontalLayout_10 = new QHBoxLayout();
+        horizontalLayout_10->setObjectName("horizontalLayout_10");
+        label_5 = new QLabel(groupBox);
+        label_5->setObjectName("label_5");
+
+        horizontalLayout_10->addWidget(label_5);
+
+        canDataSplit1 = new QLineEdit(groupBox);
+        canDataSplit1->setObjectName("canDataSplit1");
+        canDataSplit1->setMaximumWidth(60);
+        canDataSplit1->setMaxLength(4);
+
+        horizontalLayout_10->addWidget(canDataSplit1);
+
+        canDataSplit2 = new QLineEdit(groupBox);
+        canDataSplit2->setObjectName("canDataSplit2");
+        canDataSplit2->setMaximumWidth(60);
+        canDataSplit2->setMaxLength(4);
+
+        horizontalLayout_10->addWidget(canDataSplit2);
+
+        canDataSplit3 = new QLineEdit(groupBox);
+        canDataSplit3->setObjectName("canDataSplit3");
+        canDataSplit3->setMaximumWidth(60);
+        canDataSplit3->setMaxLength(4);
+
+        horizontalLayout_10->addWidget(canDataSplit3);
+
+        canDataSplit4 = new QLineEdit(groupBox);
+        canDataSplit4->setObjectName("canDataSplit4");
+        canDataSplit4->setMaximumWidth(60);
+        canDataSplit4->setMaxLength(4);
+
+        horizontalLayout_10->addWidget(canDataSplit4);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout_10->addItem(horizontalSpacer_3);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_10);
 
         presetGroupBox = new QGroupBox(groupBox);
         presetGroupBox->setObjectName("presetGroupBox");
@@ -340,8 +508,8 @@ public:
         joint1Slider->setObjectName("joint1Slider");
         joint1Slider->setMinimum(-90);
         joint1Slider->setMaximum(90);
-        joint1Slider->setOrientation(Qt::Horizontal);
-        joint1Slider->setTickPosition(QSlider::TicksBelow);
+        joint1Slider->setOrientation(Qt::Orientation::Horizontal);
+        joint1Slider->setTickPosition(QSlider::TickPosition::TicksBelow);
 
         horizontalLayout_6->addWidget(joint1Slider);
 
@@ -363,8 +531,8 @@ public:
         joint2Slider->setObjectName("joint2Slider");
         joint2Slider->setMinimum(-90);
         joint2Slider->setMaximum(90);
-        joint2Slider->setOrientation(Qt::Horizontal);
-        joint2Slider->setTickPosition(QSlider::TicksBelow);
+        joint2Slider->setOrientation(Qt::Orientation::Horizontal);
+        joint2Slider->setTickPosition(QSlider::TickPosition::TicksBelow);
 
         horizontalLayout_7->addWidget(joint2Slider);
 
@@ -386,8 +554,8 @@ public:
         joint3Slider->setObjectName("joint3Slider");
         joint3Slider->setMinimum(-90);
         joint3Slider->setMaximum(90);
-        joint3Slider->setOrientation(Qt::Horizontal);
-        joint3Slider->setTickPosition(QSlider::TicksBelow);
+        joint3Slider->setOrientation(Qt::Orientation::Horizontal);
+        joint3Slider->setTickPosition(QSlider::TickPosition::TicksBelow);
 
         horizontalLayout_8->addWidget(joint3Slider);
 
@@ -409,8 +577,8 @@ public:
         joint4Slider->setObjectName("joint4Slider");
         joint4Slider->setMinimum(-90);
         joint4Slider->setMaximum(90);
-        joint4Slider->setOrientation(Qt::Horizontal);
-        joint4Slider->setTickPosition(QSlider::TicksBelow);
+        joint4Slider->setOrientation(Qt::Orientation::Horizontal);
+        joint4Slider->setTickPosition(QSlider::TickPosition::TicksBelow);
 
         horizontalLayout_9->addWidget(joint4Slider);
 
@@ -449,13 +617,22 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "LittleArm Controller", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Server IP:", nullptr));
+        serverIpEdit->setText(QCoreApplication::translate("MainWindow", "192.168.66.202", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Port:", nullptr));
+        serverPortEdit->setText(QCoreApplication::translate("MainWindow", "5000", nullptr));
         connectButton->setText(QCoreApplication::translate("MainWindow", "Connect", nullptr));
         disconnectButton->setText(QCoreApplication::translate("MainWindow", "Disconnect", nullptr));
         groupBox->setTitle(QCoreApplication::translate("MainWindow", "CAN Message", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "CAN ID:", nullptr));
+        canIdEdit->setText(QCoreApplication::translate("MainWindow", "027", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "Data:", nullptr));
+        canDataEdit->setText(QCoreApplication::translate("MainWindow", "0800000000000000", nullptr));
         sendButton->setText(QCoreApplication::translate("MainWindow", "Send", nullptr));
+        label_5->setText(QCoreApplication::translate("MainWindow", "Split Data:", nullptr));
+        canDataSplit1->setText(QCoreApplication::translate("MainWindow", "0800", nullptr));
+        canDataSplit2->setText(QCoreApplication::translate("MainWindow", "0000", nullptr));
+        canDataSplit3->setText(QCoreApplication::translate("MainWindow", "0000", nullptr));
+        canDataSplit4->setText(QCoreApplication::translate("MainWindow", "0000", nullptr));
         presetGroupBox->setTitle(QCoreApplication::translate("MainWindow", "Preset Messages", nullptr));
         presetButton1->setText(QCoreApplication::translate("MainWindow", "Preset 1", nullptr));
         presetButton2->setText(QCoreApplication::translate("MainWindow", "Preset 2", nullptr));
@@ -472,9 +649,9 @@ public:
         collapseIntervalSpinBox->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));
         showTimeCheckBox->setText(QCoreApplication::translate("MainWindow", "Show Time", nullptr));
         txGroupBox->setTitle(QCoreApplication::translate("MainWindow", "TX (Sent)", nullptr));
-        txMonitorText->setStyleSheet(QCoreApplication::translate("MainWindow", "font-family: Consolas, Monaco, monospace;", nullptr));
+        txMonitorText->setStyleSheet(QString());
         rxGroupBox->setTitle(QCoreApplication::translate("MainWindow", "RX (Received)", nullptr));
-        rxMonitorText->setStyleSheet(QCoreApplication::translate("MainWindow", "font-family: Consolas, Monaco, monospace;", nullptr));
+        rxMonitorText->setStyleSheet(QString());
         monitorButton->setText(QCoreApplication::translate("MainWindow", "Start Monitor", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(canTab), QCoreApplication::translate("MainWindow", "CAN Monitor", nullptr));
         joint1Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 1 (Base)", nullptr));
