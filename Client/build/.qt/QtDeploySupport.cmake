@@ -60,6 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 set(__qt_deploy_support_files
     "/Users/fan/Code/Qt/LittleArm/Client/build/.qt/QtDeployTargets.cmake"
     "/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

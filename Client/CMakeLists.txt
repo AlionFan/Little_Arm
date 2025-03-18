@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(can_client VERSION 1.0 LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 自动处理 moc, uic, rcc
@@ -11,21 +11,47 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 # 首先尝试查找Qt6
-find_package(Qt6 COMPONENTS Core Gui Widgets Network)
+find_package(Qt6 COMPONENTS 
+    Core 
+    Gui 
+    Widgets 
+    Network 
+    Quick 
+    Quick3D
+    QuickWidgets
+    REQUIRED
+)
 
 if(Qt6_FOUND)
     message(STATUS "Building with Qt6")
     set(QT_VERSION_MAJOR 6)
 else()
     message(STATUS "Qt6 not found, trying Qt5")
-    find_package(Qt5 COMPONENTS Core Gui Widgets Network REQUIRED)
+    find_package(Qt5 COMPONENTS 
+        Core 
+        Gui 
+        Widgets 
+        Network 
+        Quick 
+        Quick3D
+        QuickWidgets
+        REQUIRED
+    )
     set(QT_VERSION_MAJOR 5)
 endif()
+
+# QML资源文件
+set(QML_FILES
+    src/robot3d.qml
+)
 
 # 源文件
 set(SOURCES
     src/main.cpp
     src/mainwindow.cpp
+    src/mainwindow.h
+    src/mainwindow.ui
+    resources.qrc
 )
 
 # 头文件
@@ -45,6 +71,16 @@ add_executable(can_client
     ${UIS}
 )
 
+# 复制QML文件到构建目录
+foreach(QML_FILE ${QML_FILES})
+    add_custom_command(
+        TARGET can_client POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy
+                ${CMAKE_SOURCE_DIR}/${QML_FILE}
+                ${CMAKE_BINARY_DIR}/${QML_FILE}
+    )
+endforeach()
+
 # 根据找到的Qt版本链接相应的库
 if(QT_VERSION_MAJOR EQUAL 6)
     target_link_libraries(can_client PRIVATE
@@ -52,6 +88,9 @@ if(QT_VERSION_MAJOR EQUAL 6)
         Qt6::Gui
         Qt6::Widgets
         Qt6::Network
+        Qt6::Quick
+        Qt6::Quick3D
+        Qt6::QuickWidgets
     )
 else()
     target_link_libraries(can_client PRIVATE
@@ -59,6 +98,9 @@ else()
         Qt5::Gui
         Qt5::Widgets
         Qt5::Network
+        Qt5::Quick
+        Qt5::Quick3D
+        Qt5::QuickWidgets
     )
 endif()
 
@@ -75,4 +117,13 @@ target_compile_definitions(can_client PRIVATE
 # 安装规则
 install(TARGETS can_client
     RUNTIME DESTINATION bin
+)
+
+# Copy QML file to build directory
+add_custom_command(TARGET can_client POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E make_directory ${CMAKE_BINARY_DIR}/src
+    COMMAND ${CMAKE_COMMAND} -E copy
+        ${CMAKE_SOURCE_DIR}/src/robot3d.qml
+        ${CMAKE_BINARY_DIR}/src/robot3d.qml
+    COMMENT "Copying robot3d.qml to build directory"
 ) 

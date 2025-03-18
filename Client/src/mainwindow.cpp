@@ -11,6 +11,10 @@
 #include <QStyleFactory>
 #include <QRegularExpression>
 #include <QInputDialog>
+#include <QQmlEngine>
+#include <QQmlContext>
+#include <QCoreApplication>
+#include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -19,13 +23,18 @@ MainWindow::MainWindow(QWidget *parent) :
     monitorTimer(new QTimer(this)),
     isMonitoring(false),
     isCollapsing(false),
-    collapseInterval(1000)
+    collapseInterval(1000),
+    robot3dView(nullptr),
+    qmlEngine(nullptr),
+    qmlContext(nullptr),
+    rootObject(nullptr)
 {
     setupUi();
     setupConnections();
     loadPresetMessages();
     setupPresetButtons();
     setupStyles();
+    setup3DView();
 }
 
 MainWindow::~MainWindow()
@@ -414,7 +423,7 @@ void MainWindow::onJoint1SliderChanged(int value)
 {
     if (ui->joint1SpinBox->value() != value) {
         ui->joint1SpinBox->setValue(value);
-        // TODO: 发送关节1控制命令
+        updateRobotModel();
     }
 }
 
@@ -422,7 +431,6 @@ void MainWindow::onJoint1SpinBoxChanged(int value)
 {
     if (ui->joint1Slider->value() != value) {
         ui->joint1Slider->setValue(value);
-        // TODO: 发送关节1控制命令
     }
 }
 
@@ -431,7 +439,7 @@ void MainWindow::onJoint2SliderChanged(int value)
 {
     if (ui->joint2SpinBox->value() != value) {
         ui->joint2SpinBox->setValue(value);
-        // TODO: 发送关节2控制命令
+        updateRobotModel();
     }
 }
 
@@ -439,7 +447,6 @@ void MainWindow::onJoint2SpinBoxChanged(int value)
 {
     if (ui->joint2Slider->value() != value) {
         ui->joint2Slider->setValue(value);
-        // TODO: 发送关节2控制命令
     }
 }
 
@@ -448,7 +455,7 @@ void MainWindow::onJoint3SliderChanged(int value)
 {
     if (ui->joint3SpinBox->value() != value) {
         ui->joint3SpinBox->setValue(value);
-        // TODO: 发送关节3控制命令
+        updateRobotModel();
     }
 }
 
@@ -456,7 +463,6 @@ void MainWindow::onJoint3SpinBoxChanged(int value)
 {
     if (ui->joint3Slider->value() != value) {
         ui->joint3Slider->setValue(value);
-        // TODO: 发送关节3控制命令
     }
 }
 
@@ -465,7 +471,7 @@ void MainWindow::onJoint4SliderChanged(int value)
 {
     if (ui->joint4SpinBox->value() != value) {
         ui->joint4SpinBox->setValue(value);
-        // TODO: 发送关节4控制命令
+        updateRobotModel();
     }
 }
 
@@ -473,7 +479,6 @@ void MainWindow::onJoint4SpinBoxChanged(int value)
 {
     if (ui->joint4Slider->value() != value) {
         ui->joint4Slider->setValue(value);
-        // TODO: 发送关节4控制命令
     }
 }
 
@@ -570,4 +575,41 @@ bool MainWindow::isValidHexString(const QString &str)
 {
     QRegularExpression hexRegex("^[0-9A-Fa-f]+$");
     return hexRegex.match(str).hasMatch();
+}
+
+void MainWindow::setup3DView()
+{
+    // 使用UI中已存在的QQuickWidget
+    robot3dView = ui->robot3dView;
+    robot3dView->setResizeMode(QQuickWidget::SizeRootObjectToView);
+
+    qmlEngine = robot3dView->engine();
+    qmlContext = robot3dView->rootContext();
+
+    // 从资源文件加载QML
+    robot3dView->setSource(QUrl("qrc:/src/robot3d.qml"));
+
+    if (robot3dView->status() == QQuickWidget::Error) {
+        qDebug() << "QML加载错误:";
+        for (const QQmlError &error : robot3dView->errors()) {
+            qDebug() << error.toString();
+        }
+    } else {
+        qDebug() << "QML加载成功";
+        rootObject = robot3dView->rootObject();
+        if (!rootObject) {
+            qDebug() << "无法获取根对象";
+        }
+    }
+}
+
+void MainWindow::updateRobotModel()
+{
+    if (!rootObject) return;
+    
+    // 更新关节角度
+    rootObject->setProperty("joint1Angle", ui->joint1Slider->value());
+    rootObject->setProperty("joint2Angle", ui->joint2Slider->value());
+    rootObject->setProperty("joint3Angle", ui->joint3Slider->value());
+    rootObject->setProperty("joint4Angle", ui->joint4Slider->value());
 } 

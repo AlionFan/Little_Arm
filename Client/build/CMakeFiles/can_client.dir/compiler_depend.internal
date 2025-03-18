@@ -760,6 +760,7 @@
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list
@@ -895,11 +896,22 @@
  /Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/3.31.3/CMakeCXXCompiler.cmake
  /Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/3.31.3/CMakeSystem.cmake
  /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/moc_predefs.h
+ /Users/fan/Code/Qt/LittleArm/Client/resources.qrc
  /Users/fan/Code/Qt/LittleArm/Client/src/main.cpp
  /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.cpp
  /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.h
  /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.ui
+ /Users/fan/Qt/6.8.0/macos/include/QtQmlIntegration/qqmlintegration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QEvent
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QMap
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QMargins
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QObject
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QRect
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QRectF
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSettings
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QString
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QStringList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer
@@ -923,6 +935,7 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h
@@ -934,10 +947,17 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h
@@ -956,15 +976,18 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qline.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmetaobject.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h
@@ -973,12 +996,16 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qproperty.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qpropertyprivate.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qset.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qsettings.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h
@@ -1010,6 +1037,7 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h
@@ -1019,36 +1047,62 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtyperevision.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qversionnumber.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QMatrix4x4
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QTransform
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qaccessible.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qaccessible_base.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qevent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qgenericmatrix.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qmatrix4x4.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qquaternion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qsurface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qsurfaceformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvector2d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvector3d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvector4d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindow.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QTcpSocket
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qabstractsocket.h
@@ -1057,6 +1111,42 @@
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetwork-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/QQmlContext
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/QQmlEngine
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qjsengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qjsmanagedvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qjsnumbercoercion.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qjsprimitivevalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qjsvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqml.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlabstracturlinterceptor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlcomponent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlcontext.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmldebug.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlerror.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmllist.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlparserstatus.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlprivate.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlpropertyvaluesource.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qqmlregistration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qtqml-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qtqmlexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/Headers/qtqmlglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/QQuickItem
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qquickitem.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qquickwindow.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qsggeometry.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qsgnode.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qsgrendererinterface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qtquick-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qtquickexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/Headers/qtquickglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Versions/A/Headers/QQuickWidget
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Versions/A/Headers/qquickwidget.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Versions/A/Headers/qtquickwidgetsexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Versions/A/Headers/qtquickwidgetsglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h
@@ -1092,6 +1182,14 @@
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessAliasTargets.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
@@ -1264,6 +1362,472 @@
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2AdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlConfigExtras.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlPublicCMakeHelpers.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml/Qt6QmlVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels/Qt6QmlModelsVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools/Qt6QmlToolsVersionlessTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DMacros.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D/Qt6Quick3DVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools/Qt6Quick3DToolsVersionlessTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsVersionlessAliasTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsMacros.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsAdditionalTargetInfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsConfig.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsConfigVersion.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsConfigVersionImpl.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsDependencies.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsTargets-relwithdebinfo.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsTargets.cmake
+ /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsVersionlessTargets.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake
  /Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake
@@ -1325,6 +1889,9 @@
  /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake
  /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake
  /opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake
+
+CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o
+ /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/EWIEGA46WW/qrc_resources.cpp
 
 CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/mocs_compilation.cpp
@@ -2111,6 +2678,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/initializer_list
@@ -2129,6 +2697,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/numeric
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/optional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ratio
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/source_location
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdbool.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stddef.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdexcept
@@ -2152,6 +2721,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/limits.h
@@ -2293,6 +2863,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h
@@ -2300,7 +2871,17 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h
  /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.h
  /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/UVLADIE3JM/moc_mainwindow.cpp
+ /Users/fan/Qt/6.8.0/macos/include/QtQmlIntegration/qqmlintegration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QEvent
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMargins
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QObject
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRect
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRectF
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSettings
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSize
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSizeF
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QStringList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QTimer
@@ -2324,6 +2905,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbytearraylist.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbytearrayview.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcalendar.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qchar.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcompare.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcompare_impl.h
@@ -2335,10 +2917,17 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcontainerinfo.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcontiguouscache.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreevent.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdarwinhelpers.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatastream.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatetime.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdebug.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qelapsedtimer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qendian.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qeventloop.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qexceptionhandling.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qflags.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfloat16.h
@@ -2357,15 +2946,18 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlatin1stringview.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qline.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlist.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlocale.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlogging.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmalloc.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmap.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmargins.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmath.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetacontainer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetaobject.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetatype.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qminmax.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnamespace.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnumeric.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qobject.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qobject_impl.h
@@ -2374,12 +2966,16 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qoverload.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpair.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpoint.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qprocessordetection.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qproperty.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpropertyprivate.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qrect.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qrefcount.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qscopedpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qscopeguard.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qset.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsettings.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qshareddata.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qshareddata_impl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsharedpointer.h
@@ -2411,6 +3007,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtextstream.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimezone.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtmetamacros.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtmochelpers.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtnoop.h
@@ -2421,36 +3018,62 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtversion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtversionchecks.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtypeinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtyperevision.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtypes.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qutf8stringview.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qvariant.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversionnumber.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversiontagging.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qyieldcpu.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QMatrix4x4
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QTransform
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible_base.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaction.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbitmap.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbrush.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcolor.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcursor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qevent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qeventpoint.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfont.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfontinfo.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfontmetrics.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qgenericmatrix.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qicon.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qimage.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputdevice.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qkeysequence.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qmatrix4x4.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpalette.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpixelformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpixmap.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpolygon.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qquaternion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qregion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qrgb.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qrgba64.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurfaceformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtgui-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtransform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector2d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector3d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector4d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvectornd.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindow.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/QTcpSocket
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h
@@ -2459,6 +3082,42 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlContext
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlEngine
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsmanagedvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsnumbercoercion.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsprimitivevalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqml.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlabstracturlinterceptor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcomponent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcontext.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmldebug.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlerror.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmllist.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlparserstatus.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlprivate.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlpropertyvaluesource.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlregistration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqml-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/QQuickItem
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickitem.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickwindow.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsggeometry.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgnode.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgrendererinterface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquick-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/QQuickWidget
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qquickwidget.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h
@@ -3253,6 +3912,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/initializer_list
@@ -3271,6 +3931,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/numeric
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/optional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ratio
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/source_location
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdbool.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stddef.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdexcept
@@ -3294,6 +3955,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/limits.h
@@ -3435,13 +4097,24 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h
  /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.h
+ /Users/fan/Qt/6.8.0/macos/include/QtQmlIntegration/qqmlintegration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QEvent
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMargins
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QObject
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRect
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRectF
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSettings
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSize
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSizeF
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QStringList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QTimer
@@ -3465,6 +4138,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbytearraylist.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qbytearrayview.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcalendar.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qchar.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcompare.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcompare_impl.h
@@ -3481,6 +4155,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreevent.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdarwinhelpers.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatastream.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatetime.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdebug.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qelapsedtimer.h
@@ -3511,6 +4186,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmargins.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmath.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetacontainer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetaobject.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetatype.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qminmax.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnamespace.h
@@ -3523,12 +4199,16 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qoverload.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpair.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpoint.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qprocessordetection.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qproperty.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpropertyprivate.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qrect.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qrefcount.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qscopedpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qscopeguard.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qset.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsettings.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qshareddata.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qshareddata_impl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsharedpointer.h
@@ -3560,6 +4240,7 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtextstream.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimezone.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtmetamacros.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtnoop.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtpreprocessorsupport.h
@@ -3569,39 +4250,62 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtversion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtversionchecks.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtypeinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtyperevision.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtypes.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qutf8stringview.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qvariant.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversionnumber.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversiontagging.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qyieldcpu.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QMatrix4x4
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QTransform
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible_base.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaction.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbitmap.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbrush.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcolor.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcursor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qevent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qeventpoint.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfont.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfontinfo.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfontmetrics.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qgenericmatrix.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qicon.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qimage.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qkeysequence.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qmatrix4x4.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpalette.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpixelformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpixmap.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpolygon.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qquaternion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qregion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qrgb.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qrgba64.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurfaceformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtgui-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtransform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector2d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector3d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector4d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvectornd.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindow.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/QTcpSocket
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h
@@ -3610,6 +4314,42 @@ CMakeFiles/can_client.dir/src/main.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlContext
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlEngine
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsmanagedvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsnumbercoercion.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsprimitivevalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqml.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlabstracturlinterceptor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcomponent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcontext.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmldebug.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlerror.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmllist.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlparserstatus.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlprivate.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlpropertyvaluesource.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlregistration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqml-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/QQuickItem
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickitem.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickwindow.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsggeometry.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgnode.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgrendererinterface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquick-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/QQuickWidget
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qquickwidget.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qapplication.h
@@ -4443,6 +5183,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional
@@ -4467,6 +5208,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/queue
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ratio
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/source_location
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stack
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdbool.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stddef.h
@@ -4491,6 +5233,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/limits.h
@@ -4633,6 +5376,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h
@@ -4640,12 +5384,23 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h
  /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/include/ui_mainwindow.h
  /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.h
+ /Users/fan/Qt/6.8.0/macos/include/QtQmlIntegration/qqmlintegration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QCoreApplication
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDateTime
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDebug
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDir
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QEvent
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QFile
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMargins
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QObject
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRect
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRectF
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRegularExpression
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSettings
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSize
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSizeF
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QStringList
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QTimer
@@ -4723,6 +5478,7 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmargins.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmath.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetacontainer.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetaobject.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetatype.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qminmax.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnamespace.h
@@ -4735,7 +5491,10 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qoverload.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpair.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpoint.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpointer.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qprocessordetection.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qproperty.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpropertyprivate.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qrect.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qrefcount.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qregularexpression.h
@@ -4784,39 +5543,56 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtversion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtversionchecks.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtypeinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtyperevision.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtypes.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qutf8stringview.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qvariant.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversionnumber.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversiontagging.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h
  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qyieldcpu.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QAction
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QMatrix4x4
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QTransform
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible_base.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaction.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbitmap.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbrush.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcolor.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcursor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qevent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qeventpoint.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfont.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfontinfo.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qfontmetrics.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qgenericmatrix.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qicon.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qimage.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qkeysequence.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qmatrix4x4.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpalette.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpen.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpicture.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpixelformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpixmap.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpolygon.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qquaternion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qregion.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qrgb.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qrgba64.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurfaceformat.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextcursor.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextdocument.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextformat.h
@@ -4826,6 +5602,11 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtransform.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvalidator.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector2d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector3d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector4d.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvectornd.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindow.h
  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/QTcpSocket
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h
@@ -4834,6 +5615,42 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h
  /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlContext
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlEngine
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsmanagedvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsnumbercoercion.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsprimitivevalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsvalue.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqml.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlabstracturlinterceptor.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcomponent.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcontext.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmldebug.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlengine.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlerror.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlinfo.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmllist.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlparserstatus.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlprivate.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlpropertyvaluesource.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlregistration.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqml-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/QQuickItem
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickitem.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickwindow.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsggeometry.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgnode.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgrendererinterface.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquick-config.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickglobal.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/QQuickWidget
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qquickwidget.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsexports.h
+ /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsglobal.h
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QCheckBox
  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QGridLayout

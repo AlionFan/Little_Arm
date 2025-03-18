@@ -76,13 +76,21 @@ can_client_autogen/timestamp: CMakeFiles/can_client.dir/compiler_depend.ts
 	/opt/homebrew/bin/cmake -E cmake_autogen /Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/can_client_autogen.dir/AutogenInfo.json ""
 	/opt/homebrew/bin/cmake -E touch /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/timestamp
 
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/resources.qrc
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/can_client_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Code/Qt/LittleArm/Client/src/robot3d.qml
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Qt/6.8.0/macos/libexec/rcc
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/fan/Qt/6.8.0/macos/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"
+	/opt/homebrew/bin/cmake -E cmake_autorcc /Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/can_client_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 
+
 CMakeFiles/can_client.dir/codegen:
 .PHONY : CMakeFiles/can_client.dir/codegen
 
 CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o: CMakeFiles/can_client.dir/flags.make
 CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o: can_client_autogen/mocs_compilation.cpp
 CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o: CMakeFiles/can_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o -MF CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o -c /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/mocs_compilation.cpp
 
 CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.i: cmake_force
@@ -96,7 +104,7 @@ CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/can_client.dir/src/main.cpp.o: CMakeFiles/can_client.dir/flags.make
 CMakeFiles/can_client.dir/src/main.cpp.o: /Users/fan/Code/Qt/LittleArm/Client/src/main.cpp
 CMakeFiles/can_client.dir/src/main.cpp.o: CMakeFiles/can_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/can_client.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/can_client.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/can_client.dir/src/main.cpp.o -MF CMakeFiles/can_client.dir/src/main.cpp.o.d -o CMakeFiles/can_client.dir/src/main.cpp.o -c /Users/fan/Code/Qt/LittleArm/Client/src/main.cpp
 
 CMakeFiles/can_client.dir/src/main.cpp.i: cmake_force
@@ -110,7 +118,7 @@ CMakeFiles/can_client.dir/src/main.cpp.s: cmake_force
 CMakeFiles/can_client.dir/src/mainwindow.cpp.o: CMakeFiles/can_client.dir/flags.make
 CMakeFiles/can_client.dir/src/mainwindow.cpp.o: /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.cpp
 CMakeFiles/can_client.dir/src/mainwindow.cpp.o: CMakeFiles/can_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/can_client.dir/src/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/can_client.dir/src/mainwindow.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/can_client.dir/src/mainwindow.cpp.o -MF CMakeFiles/can_client.dir/src/mainwindow.cpp.o.d -o CMakeFiles/can_client.dir/src/mainwindow.cpp.o -c /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.cpp
 
 CMakeFiles/can_client.dir/src/mainwindow.cpp.i: cmake_force
@@ -121,11 +129,26 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/can_client.dir/src/mainwindow.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.cpp -o CMakeFiles/can_client.dir/src/mainwindow.cpp.s
 
+CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/can_client.dir/flags.make
+CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o: can_client_autogen/EWIEGA46WW/qrc_resources.cpp
+CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/can_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/EWIEGA46WW/qrc_resources.cpp
+
+CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/EWIEGA46WW/qrc_resources.cpp > CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/EWIEGA46WW/qrc_resources.cpp -o CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 # Object files for target can_client
 can_client_OBJECTS = \
 "CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/can_client.dir/src/main.cpp.o" \
-"CMakeFiles/can_client.dir/src/mainwindow.cpp.o"
+"CMakeFiles/can_client.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target can_client
 can_client_EXTERNAL_OBJECTS =
@@ -133,14 +156,31 @@ can_client_EXTERNAL_OBJECTS =
 can_client: CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o
 can_client: CMakeFiles/can_client.dir/src/main.cpp.o
 can_client: CMakeFiles/can_client.dir/src/mainwindow.cpp.o
+can_client: CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o
 can_client: CMakeFiles/can_client.dir/build.make
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQuick3D.framework/Versions/A/QtQuick3D
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Versions/A/QtQuickWidgets
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQuick3DRuntimeRender.framework/Versions/A/QtQuick3DRuntimeRender
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQuick3DUtils.framework/Versions/A/QtQuick3DUtils
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtShaderTools.framework/Versions/A/QtShaderTools
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtConcurrent.framework/Versions/A/QtConcurrent
 can_client: /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
-can_client: /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Versions/A/QtQuick
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQmlMeta.framework/Versions/A/QtQmlMeta
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQmlWorkerScript.framework/Versions/A/QtQmlWorkerScript
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQmlModels.framework/Versions/A/QtQmlModels
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 can_client: /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Versions/A/QtQml
+can_client: /Users/fan/Qt/6.8.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
 can_client: /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
 can_client: CMakeFiles/can_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable can_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable can_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/can_client.dir/link.txt --verbose=$(VERBOSE)
+	/opt/homebrew/bin/cmake -E copy /Users/fan/Code/Qt/LittleArm/Client/src/robot3d.qml /Users/fan/Code/Qt/LittleArm/Client/build/src/robot3d.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying robot3d.qml to build directory"
+	/opt/homebrew/bin/cmake -E make_directory /Users/fan/Code/Qt/LittleArm/Client/build/src
+	/opt/homebrew/bin/cmake -E copy /Users/fan/Code/Qt/LittleArm/Client/src/robot3d.qml /Users/fan/Code/Qt/LittleArm/Client/build/src/robot3d.qml
 
 # Rule to build all files generated by this target.
 CMakeFiles/can_client.dir/build: can_client
@@ -150,6 +190,7 @@ CMakeFiles/can_client.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/can_client.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/can_client.dir/clean
 
+CMakeFiles/can_client.dir/depend: can_client_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/can_client.dir/depend: can_client_autogen/timestamp
 	cd /Users/fan/Code/Qt/LittleArm/Client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fan/Code/Qt/LittleArm/Client /Users/fan/Code/Qt/LittleArm/Client /Users/fan/Code/Qt/LittleArm/Client/build /Users/fan/Code/Qt/LittleArm/Client/build /Users/fan/Code/Qt/LittleArm/Client/build/CMakeFiles/can_client.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/can_client.dir/depend

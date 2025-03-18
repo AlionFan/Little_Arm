@@ -1137,21 +1137,102 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMap \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QString \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QStringList \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/QQuickWidget \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qquickwidget.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickwindow.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickglobal.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlglobal.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqml-config.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qtqmlexports.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquick-config.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qtquickexports.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgrendererinterface.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsgnode.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qsggeometry.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRectF \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QMatrix4x4 \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qmatrix4x4.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector3d.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvectornd.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector4d.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qquaternion.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qgenericmatrix.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/float.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/float.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindow.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QEvent \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreevent.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QMargins \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRect \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurface.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qsurfaceformat.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qevent.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qeventpoint.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qvector2d.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputdevice.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QList \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSize \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSizeF \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QTransform \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qelapsedtimer.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qeventloop.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqml.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlprivate.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsprimitivevalue.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsnumbercoercion.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsvalue.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmllist.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlparserstatus.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlpropertyvaluesource.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qmetaobject.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpointer.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qversionnumber.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtyperevision.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlregistration.h \
+  /Users/fan/Qt/6.8.0/macos/include/QtQmlIntegration/qqmlintegration.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmldebug.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlinfo.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlerror.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsglobal.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuickWidgets.framework/Headers/qtquickwidgetsexports.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlContext \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcontext.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/QQmlEngine \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlengine.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsengine.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qjsmanagedvalue.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlabstracturlinterceptor.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSettings \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsettings.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/QQuickItem \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQuick.framework/Headers/qquickitem.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtQml.framework/Headers/qqmlcomponent.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qproperty.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qpropertyprivate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/source_location \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qaccessible_base.h \
   /Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/include/ui_mainwindow.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreevent.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qelapsedtimer.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qeventloop.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlocale.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QCheckBox \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qcheckbox.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
@@ -1168,7 +1249,6 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpicture.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QLineEdit \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextcursor.h \
@@ -1199,10 +1279,6 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDateTime \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QSettings \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qsettings.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QFile \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfile.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfiledevice.h \
@@ -1255,7 +1331,6 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdir.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qdirlisting.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qfileinfo.h \
-  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMenu \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qmenu.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QAction \
@@ -1265,4 +1340,6 @@ CMakeFiles/can_client.dir/src/mainwindow.cpp.o: \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qstylefactory.h \
   /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QRegularExpression \
   /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QInputDialog \
-  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qinputdialog.h
+  /Users/fan/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qinputdialog.h \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QCoreApplication \
+  /Users/fan/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QDebug

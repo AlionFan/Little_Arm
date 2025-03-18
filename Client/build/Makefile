@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/fan/Code/Qt/LittleArm/Client/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/homebrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -200,6 +200,30 @@ can_client_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_client_autogen.dir/build.make CMakeFiles/can_client_autogen.dir/build
 .PHONY : can_client_autogen/fast
 
+can_client_autogen/EWIEGA46WW/qrc_resources.o: can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : can_client_autogen/EWIEGA46WW/qrc_resources.o
+
+# target to build an object file
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_client.dir/build.make CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+can_client_autogen/EWIEGA46WW/qrc_resources.i: can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : can_client_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_client.dir/build.make CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : can_client_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+can_client_autogen/EWIEGA46WW/qrc_resources.s: can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : can_client_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_client.dir/build.make CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : can_client_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 can_client_autogen/mocs_compilation.o: can_client_autogen/mocs_compilation.cpp.o
 .PHONY : can_client_autogen/mocs_compilation.o
 
@@ -287,6 +311,9 @@ help:
 	@echo "... can_client_autogen"
 	@echo "... can_client_autogen_timestamp_deps"
 	@echo "... can_client"
+	@echo "... can_client_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... can_client_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... can_client_autogen/EWIEGA46WW/qrc_resources.s"
 	@echo "... can_client_autogen/mocs_compilation.o"
 	@echo "... can_client_autogen/mocs_compilation.i"
 	@echo "... can_client_autogen/mocs_compilation.s"

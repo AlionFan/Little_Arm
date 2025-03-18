@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "can_client_autogen/timestamp" "custom" "can_client_autogen/deps"
+  "/Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o" "gcc" "CMakeFiles/can_client.dir/can_client_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "/Users/fan/Code/Qt/LittleArm/Client/build/can_client_autogen/mocs_compilation.cpp" "CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/can_client.dir/can_client_autogen/mocs_compilation.cpp.o.d"
   "/Users/fan/Code/Qt/LittleArm/Client/src/main.cpp" "CMakeFiles/can_client.dir/src/main.cpp.o" "gcc" "CMakeFiles/can_client.dir/src/main.cpp.o.d"
   "/Users/fan/Code/Qt/LittleArm/Client/src/mainwindow.cpp" "CMakeFiles/can_client.dir/src/mainwindow.cpp.o" "gcc" "CMakeFiles/can_client.dir/src/mainwindow.cpp.o.d"

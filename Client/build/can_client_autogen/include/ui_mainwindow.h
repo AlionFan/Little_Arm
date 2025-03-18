@@ -10,6 +10,7 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtQuickWidgets/QQuickWidget>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
@@ -90,6 +91,7 @@ public:
     QPushButton *monitorButton;
     QSpacerItem *horizontalSpacer;
     QWidget *jointTab;
+    QHBoxLayout *horizontalLayout_11;
     QVBoxLayout *verticalLayout_41;
     QGroupBox *joint1Group;
     QHBoxLayout *horizontalLayout_6;
@@ -108,6 +110,9 @@ public:
     QSlider *joint4Slider;
     QSpinBox *joint4SpinBox;
     QSpacerItem *verticalSpacer;
+    QGroupBox *robot3dGroup;
+    QVBoxLayout *robot3dLayout;
+    QQuickWidget *robot3dView;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -498,7 +503,9 @@ public:
         tabWidget->addTab(canTab, QString());
         jointTab = new QWidget();
         jointTab->setObjectName("jointTab");
-        verticalLayout_41 = new QVBoxLayout(jointTab);
+        horizontalLayout_11 = new QHBoxLayout(jointTab);
+        horizontalLayout_11->setObjectName("horizontalLayout_11");
+        verticalLayout_41 = new QVBoxLayout();
         verticalLayout_41->setObjectName("verticalLayout_41");
         joint1Group = new QGroupBox(jointTab);
         joint1Group->setObjectName("joint1Group");
@@ -596,6 +603,27 @@ public:
 
         verticalLayout_41->addItem(verticalSpacer);
 
+
+        horizontalLayout_11->addLayout(verticalLayout_41);
+
+        robot3dGroup = new QGroupBox(jointTab);
+        robot3dGroup->setObjectName("robot3dGroup");
+        robot3dLayout = new QVBoxLayout(robot3dGroup);
+        robot3dLayout->setObjectName("robot3dLayout");
+        robot3dView = new QQuickWidget(robot3dGroup);
+        robot3dView->setObjectName("robot3dView");
+        robot3dView->setResizeMode(QQuickWidget::SizeRootObjectToView);
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy.setHorizontalStretch(1);
+        sizePolicy.setVerticalStretch(1);
+        sizePolicy.setHeightForWidth(robot3dView->sizePolicy().hasHeightForWidth());
+        robot3dView->setSizePolicy(sizePolicy);
+
+        robot3dLayout->addWidget(robot3dView);
+
+
+        horizontalLayout_11->addWidget(robot3dGroup);
+
         tabWidget->addTab(jointTab, QString());
 
         horizontalLayout_5->addWidget(tabWidget);
@@ -662,6 +690,7 @@ public:
         joint3SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
         joint4Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 4 (Wrist)", nullptr));
         joint4SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
+        robot3dGroup->setTitle(QCoreApplication::translate("MainWindow", "Robot 3D View", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(jointTab), QCoreApplication::translate("MainWindow", "Joint Control", nullptr));
     } // retranslateUi
 

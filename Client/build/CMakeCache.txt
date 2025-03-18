@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+CMAKE_CXX_COMPILER:STRING=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -280,6 +280,9 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 
+//The directory containing a CMake configuration file for Qt6Concurrent.
+Qt6Concurrent_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Concurrent
+
 //The directory containing a CMake configuration file for Qt6CoreTools.
 Qt6CoreTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools
 
@@ -300,6 +303,57 @@ Qt6Gui_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Gui
 
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Network
+
+//The directory containing a CMake configuration file for Qt6OpenGL.
+Qt6OpenGL_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6OpenGL
+
+//The directory containing a CMake configuration file for Qt6QmlCompilerPlusPrivate.
+Qt6QmlCompilerPlusPrivate_DIR:PATH=Qt6QmlCompilerPlusPrivate_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt6QmlIntegration.
+Qt6QmlIntegration_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlIntegration
+
+//The directory containing a CMake configuration file for Qt6QmlMeta.
+Qt6QmlMeta_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlMeta
+
+//The directory containing a CMake configuration file for Qt6QmlModels.
+Qt6QmlModels_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlModels
+
+//The directory containing a CMake configuration file for Qt6QmlTools.
+Qt6QmlTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlTools
+
+//The directory containing a CMake configuration file for Qt6QmlWorkerScript.
+Qt6QmlWorkerScript_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QmlWorkerScript
+
+//The directory containing a CMake configuration file for Qt6Qml.
+Qt6Qml_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml
+
+//The directory containing a CMake configuration file for Qt6Quick3DRuntimeRender.
+Qt6Quick3DRuntimeRender_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DRuntimeRender
+
+//The directory containing a CMake configuration file for Qt6Quick3DTools.
+Qt6Quick3DTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DTools
+
+//The directory containing a CMake configuration file for Qt6Quick3DUtils.
+Qt6Quick3DUtils_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3DUtils
+
+//The directory containing a CMake configuration file for Qt6Quick3D.
+Qt6Quick3D_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick3D
+
+//The directory containing a CMake configuration file for Qt6QuickTools.
+Qt6QuickTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickTools
+
+//The directory containing a CMake configuration file for Qt6QuickWidgets.
+Qt6QuickWidgets_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6QuickWidgets
+
+//The directory containing a CMake configuration file for Qt6Quick.
+Qt6Quick_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Quick
+
+//The directory containing a CMake configuration file for Qt6ShaderToolsTools.
+Qt6ShaderToolsTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderToolsTools
+
+//The directory containing a CMake configuration file for Qt6ShaderTools.
+Qt6ShaderTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6ShaderTools
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools
@@ -362,7 +416,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/opt/homebrew/bin/ccmake
+CMAKE_EDIT_COMMAND:INTERNAL=/Applications/CMake.app/Contents/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=MACHO
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -1008,12 +1062,85 @@ QT_FEATURE_publicsuffix_qt:INTERNAL=ON
 QT_FEATURE_publicsuffix_system:INTERNAL=OFF
 //Qt feature: pushbutton (from target Qt6::Widgets)
 QT_FEATURE_pushbutton:INTERNAL=ON
+//Qt feature: qml_animation (from target Qt6::Qml)
+QT_FEATURE_qml_animation:INTERNAL=ON
+//Qt feature: qml_debug (from target Qt6::Qml)
+QT_FEATURE_qml_debug:INTERNAL=ON
+//Qt feature: qml_delegate_model (from target Qt6::QmlModels)
+QT_FEATURE_qml_delegate_model:INTERNAL=ON
+//Qt feature: qml_itemmodel (from target Qt6::Qml)
+QT_FEATURE_qml_itemmodel:INTERNAL=ON
+//Qt feature: qml_jit (from target Qt6::Qml)
+QT_FEATURE_qml_jit:INTERNAL=ON
+//Qt feature: qml_list_model (from target Qt6::QmlModels)
+QT_FEATURE_qml_list_model:INTERNAL=ON
+//Qt feature: qml_locale (from target Qt6::Qml)
+QT_FEATURE_qml_locale:INTERNAL=ON
+//Qt feature: qml_network (from target Qt6::Qml)
+QT_FEATURE_qml_network:INTERNAL=ON
+//Qt feature: qml_object_model (from target Qt6::QmlModels)
+QT_FEATURE_qml_object_model:INTERNAL=ON
+//Qt feature: qml_preview (from target Qt6::Qml)
+QT_FEATURE_qml_preview:INTERNAL=ON
+//Qt feature: qml_profiler (from target Qt6::Qml)
+QT_FEATURE_qml_profiler:INTERNAL=ON
+//Qt feature: qml_python (from target Qt6::Qml)
+QT_FEATURE_qml_python:INTERNAL=ON
+//Qt feature: qml_ssl (from target Qt6::Qml)
+QT_FEATURE_qml_ssl:INTERNAL=ON
+//Qt feature: qml_table_model (from target Qt6::QmlModels)
+QT_FEATURE_qml_table_model:INTERNAL=ON
+//Qt feature: qml_worker_script (from target Qt6::Qml)
+QT_FEATURE_qml_worker_script:INTERNAL=ON
+//Qt feature: qml_xml_http_request (from target Qt6::Qml)
+QT_FEATURE_qml_xml_http_request:INTERNAL=ON
+//Qt feature: qml_xmllistmodel (from target Qt6::Qml)
+QT_FEATURE_qml_xmllistmodel:INTERNAL=ON
 //Qt feature: qqnx_imf (from target Qt6::Gui)
 QT_FEATURE_qqnx_imf:INTERNAL=OFF
 //Qt feature: qqnx_pps (from target Qt6::Core)
 QT_FEATURE_qqnx_pps:INTERNAL=OFF
 //Qt feature: qt_framework (from target Qt6::Core)
 QT_FEATURE_qt_framework:INTERNAL=ON
+//Qt feature: quick_animatedimage (from target Qt6::Quick)
+QT_FEATURE_quick_animatedimage:INTERNAL=ON
+//Qt feature: quick_canvas (from target Qt6::Quick)
+QT_FEATURE_quick_canvas:INTERNAL=ON
+//Qt feature: quick_designer (from target Qt6::Quick)
+QT_FEATURE_quick_designer:INTERNAL=ON
+//Qt feature: quick_draganddrop (from target Qt6::Quick)
+QT_FEATURE_quick_draganddrop:INTERNAL=ON
+//Qt feature: quick_flipable (from target Qt6::Quick)
+QT_FEATURE_quick_flipable:INTERNAL=ON
+//Qt feature: quick_gridview (from target Qt6::Quick)
+QT_FEATURE_quick_gridview:INTERNAL=ON
+//Qt feature: quick_itemview (from target Qt6::Quick)
+QT_FEATURE_quick_itemview:INTERNAL=ON
+//Qt feature: quick_listview (from target Qt6::Quick)
+QT_FEATURE_quick_listview:INTERNAL=ON
+//Qt feature: quick_particles (from target Qt6::Quick)
+QT_FEATURE_quick_particles:INTERNAL=ON
+//Qt feature: quick_path (from target Qt6::Quick)
+QT_FEATURE_quick_path:INTERNAL=ON
+//Qt feature: quick_pathview (from target Qt6::Quick)
+QT_FEATURE_quick_pathview:INTERNAL=ON
+//Qt feature: quick_pixmap_cache_threaded_download (from target
+// Qt6::Quick)
+QT_FEATURE_quick_pixmap_cache_threaded_download:INTERNAL=ON
+//Qt feature: quick_positioners (from target Qt6::Quick)
+QT_FEATURE_quick_positioners:INTERNAL=ON
+//Qt feature: quick_repeater (from target Qt6::Quick)
+QT_FEATURE_quick_repeater:INTERNAL=ON
+//Qt feature: quick_shadereffect (from target Qt6::Quick)
+QT_FEATURE_quick_shadereffect:INTERNAL=ON
+//Qt feature: quick_sprite (from target Qt6::Quick)
+QT_FEATURE_quick_sprite:INTERNAL=ON
+//Qt feature: quick_tableview (from target Qt6::Quick)
+QT_FEATURE_quick_tableview:INTERNAL=ON
+//Qt feature: quick_treeview (from target Qt6::Quick)
+QT_FEATURE_quick_treeview:INTERNAL=ON
+//Qt feature: quick_viewtransitions (from target Qt6::Quick)
+QT_FEATURE_quick_viewtransitions:INTERNAL=ON
 //Qt feature: radiobutton (from target Qt6::Widgets)
 QT_FEATURE_radiobutton:INTERNAL=ON
 //Qt feature: raster_64bit (from target Qt6::Gui)
@@ -1320,4 +1447,5 @@ QT_FEATURE_xrender:INTERNAL=OFF
 QT_FEATURE_zstd:INTERNAL=OFF
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+__qt_qml_macros_module_base_dir:INTERNAL=/Users/fan/Qt/6.8.0/macos/lib/cmake/Qt6Qml
 
