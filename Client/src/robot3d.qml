@@ -63,11 +63,12 @@ View3D {
             // 材质定义
             PrincipledMaterial {
                 id: link1_material
-                baseColor: "#FFF5E6"  // 奶白色
-                metalness: 0.0        // 降低金属感
-                roughness: 0.7        // 增加粗糙度，减少反光
-                opacity: 1.0          // 完全不透明
-                specularAmount: 0.3   // 适度的高光反射
+                // baseColor: "#FFFFFF"     // 纯白色
+                metalness: 0.3          // 轻微金属感，增加实体感
+                roughness: 0.2           // 降低粗糙度，使表面更光滑
+                opacity: 0.5             // 完全不透明
+                specularAmount: 0.6      // 增加高光反射，强调光滑表面
+                cullMode: PrincipledMaterial.BackFaceCulling  // 启用背面剔除，增强实体感
             }
             
             // Mesh模型
