@@ -22,66 +22,70 @@ View3D {
         clearColor: "white"
     }
 
-
-    // grid
-    AxisHelper {
-        enableAxisLines: true
-        enableXYGrid: true
-        enableXZGrid: true
-        enableYZGrid: true
-        gridColor: "black"
-        gridOpacity: 0.1
-    }
-    
-    // Light
-    DirectionalLight {
-        id: directionalLight
-        x: 0
-        y: 0
-        z: 1000
-        eulerRotation.x: -30
-        eulerRotation.y: -70
+    // 添加根节点，设置Z轴朝上，X轴指向右侧，Y轴指向屏幕外的坐标系
+    Node {
+        id: rootNode
+        // 旋转使Z轴朝上，X轴指向右侧，Y轴指向屏幕外（右手坐标系）
+        eulerRotation.x: -90
+        eulerRotation.y: 0
         eulerRotation.z: 0
-        brightness: 1.0
-        ambientColor: Qt.rgba(0.1, 0.1, 0.1, 1.0)
-        castsShadow: true
-    }
-    
-    // Red Cube
-    Model {
-        id: redCube
-        x: 0
-        y: 0
-        z: 0
-        scale: Qt.vector3d(1, 1, 1)
-        source: "#Cube"
-        // 将第一个滑条的值绑定到红色方块的旋转
-        eulerRotation.x: joint1Angle
-        materials: PrincipledMaterial {
-            baseColor: "red"
-            metalness: 0.1
-            roughness: 0.5
+        
+        // grid
+        AxisHelper {
+            enableAxisLines: true
+            enableXYGrid: true
+            enableXZGrid: true
+            enableYZGrid: true
+            gridColor: "black"
+            gridOpacity: 0.1
         }
-    }
-
-    
-    // Camera
-    Node{
-        id: cameraNode
-        PerspectiveCamera{
-            id: camera
+        
+        // Light
+        DirectionalLight {
+            id: directionalLight
             x: 0
             y: 0
-            z: 1500
-            eulerRotation.x: 0
-            eulerRotation.y: 0
+            z: 1000
+            eulerRotation.x: 30
+            eulerRotation.y: 70
             eulerRotation.z: 0
-
-            clipNear: 0
-            clipFar: 3000
-            fieldOfView: 60
-            fieldOfViewOrientation: Camera.Horizontal
+            brightness: 1.0
+            ambientColor: Qt.rgba(0.1, 0.1, 0.1, 1.0)
+            castsShadow: true
         }
+        
+        // Red Cube
+        Model {
+            id: redCube
+            x: 0
+            y: 0
+            z: 0
+            scale: Qt.vector3d(1, 1, 1)
+            source: "#Cube"
+            // 将第一个滑条的值绑定到红色方块的Z轴旋转
+            eulerRotation.z: joint1Angle
+            materials: PrincipledMaterial {
+                baseColor: "red"
+                metalness: 0.1
+                roughness: 0.5
+            }
+        }
+    }
+
+    // Camera
+    PerspectiveCamera{
+        id: camera
+        x: 500
+        y: 250
+        z: 1500
+        eulerRotation.x: 0
+        eulerRotation.y: 0
+        eulerRotation.z: 0
+
+        clipNear: 0
+        clipFar: 3000
+        fieldOfView: 60
+        fieldOfViewOrientation: Camera.Horizontal
     }
 
     // Mouse Ctrl
@@ -161,4 +165,5 @@ View3D {
             }
         }
     }
+
 }
