@@ -525,6 +525,58 @@ QPushButton[objectName^=&quot;presetButton&quot;]:pressed {
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="gimTab">
+       <attribute name="title">
+        <string>GIM_Control</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_12">
+          <item>
+           <widget class="QLabel" name="gimInputLabel">
+            <property name="text">
+             <string>浮点数输入:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="gimInputEdit">
+            <property name="placeholderText">
+             <string>输入浮点数，按回车转换</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="gimOutputText">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="placeholderText">
+           <string>十六进制小端序结果将显示在这里</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="zdtTab">
+       <attribute name="title">
+        <string>ZDT_Control</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QLabel" name="zdtPlaceholderLabel">
+          <property name="text">
+           <string>ZDT控制页面</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
       <widget class="QWidget" name="jointTab">
        <attribute name="title">
         <string>Joint Control</string>

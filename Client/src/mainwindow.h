@@ -51,6 +51,9 @@ private slots:
     // 数据同步相关槽
     void onCanDataEditChanged(const QString &text);
     void onCanDataSplitChanged();
+    
+    // GIM控制相关槽
+    void onGimInputEditReturnPressed();
 
 private:
     void setupConnections();
@@ -97,4 +100,4 @@ private:
     QString formatCanData(const QString &data);
 };
 
-#endif // MAINWINDOW_H 
+#endif // MAINWINDOW_H

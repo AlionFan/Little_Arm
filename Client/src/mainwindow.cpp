@@ -63,6 +63,9 @@ void MainWindow::setupConnections()
     connect(ui->sendButton, &QPushButton::clicked, this, &MainWindow::sendCANMessage);
     connect(ui->monitorButton, &QPushButton::clicked, this, &MainWindow::startMonitoring);
     
+    // GIM控制页面信号连接
+    connect(ui->gimInputEdit, &QLineEdit::returnPressed, this, &MainWindow::onGimInputEditReturnPressed);
+    
     // 消息折叠相关信号
     connect(ui->collapseCheckBox, &QCheckBox::toggled, this, &MainWindow::toggleMessageCollapse);
     connect(ui->collapseIntervalSpinBox, QOverload<int>::of(&QSpinBox::valueChanged),
@@ -612,4 +615,53 @@ void MainWindow::updateRobotModel()
     rootObject->setProperty("joint2Angle", ui->joint2Slider->value());
     rootObject->setProperty("joint3Angle", ui->joint3Slider->value());
     rootObject->setProperty("joint4Angle", ui->joint4Slider->value());
-} 
+}
+
+void MainWindow::onGimInputEditReturnPressed()
+{
+    // 获取输入的浮点数
+    QString input = ui->gimInputEdit->text().trimmed();
+    bool ok;
+    float floatValue = input.toFloat(&ok);
+    
+    if (!ok) {
+        ui->gimOutputText->setText("错误：请输入有效的浮点数");
+        return;
+    }
+    
+    // 将浮点数转换为小端序十六进制
+    union {
+        float f;
+        quint32 i;
+    } converter;
+    
+    converter.f = floatValue;
+    
+    // 获取小端序字节
+    quint8 bytes[4];
+    bytes[0] = converter.i & 0xFF;          // 最低位字节
+    bytes[1] = (converter.i >> 8) & 0xFF;   // 次低位字节
+    bytes[2] = (converter.i >> 16) & 0xFF;  // 次高位字节
+    bytes[3] = (converter.i >> 24) & 0xFF;  // 最高位字节
+    
+    // 格式化为十六进制字符串
+    QString hexString = QString("%1%2%3%4")
+        .arg(bytes[0], 2, 16, QChar('0'))
+        .arg(bytes[1], 2, 16, QChar('0'))
+        .arg(bytes[2], 2, 16, QChar('0'))
+        .arg(bytes[3], 2, 16, QChar('0'));
+    
+    // 显示结果
+    QString result = QString("浮点数: %1\n十六进制小端序: 0x%2\n")
+        .arg(floatValue)
+        .arg(hexString.toUpper());
+    
+    // 添加字节顺序说明
+    result += QString("字节顺序: %1 %2 %3 %4")
+        .arg(QString("0x%1").arg(bytes[0], 2, 16, QChar('0')).toUpper())
+        .arg(QString("0x%1").arg(bytes[1], 2, 16, QChar('0')).toUpper())
+        .arg(QString("0x%1").arg(bytes[2], 2, 16, QChar('0')).toUpper())
+        .arg(QString("0x%1").arg(bytes[3], 2, 16, QChar('0')).toUpper());
+    
+    ui->gimOutputText->setText(result);
+}

@@ -90,6 +90,15 @@ public:
     QHBoxLayout *horizontalLayout_3;
     QPushButton *monitorButton;
     QSpacerItem *horizontalSpacer;
+    QWidget *gimTab;
+    QVBoxLayout *verticalLayout_6;
+    QHBoxLayout *horizontalLayout_12;
+    QLabel *gimInputLabel;
+    QLineEdit *gimInputEdit;
+    QTextEdit *gimOutputText;
+    QWidget *zdtTab;
+    QVBoxLayout *verticalLayout_7;
+    QLabel *zdtPlaceholderLabel;
     QWidget *jointTab;
     QHBoxLayout *horizontalLayout_11;
     QVBoxLayout *verticalLayout_41;
@@ -501,6 +510,43 @@ public:
         verticalLayout->addWidget(groupBox_2);
 
         tabWidget->addTab(canTab, QString());
+        gimTab = new QWidget();
+        gimTab->setObjectName("gimTab");
+        verticalLayout_6 = new QVBoxLayout(gimTab);
+        verticalLayout_6->setObjectName("verticalLayout_6");
+        horizontalLayout_12 = new QHBoxLayout();
+        horizontalLayout_12->setObjectName("horizontalLayout_12");
+        gimInputLabel = new QLabel(gimTab);
+        gimInputLabel->setObjectName("gimInputLabel");
+
+        horizontalLayout_12->addWidget(gimInputLabel);
+
+        gimInputEdit = new QLineEdit(gimTab);
+        gimInputEdit->setObjectName("gimInputEdit");
+
+        horizontalLayout_12->addWidget(gimInputEdit);
+
+
+        verticalLayout_6->addLayout(horizontalLayout_12);
+
+        gimOutputText = new QTextEdit(gimTab);
+        gimOutputText->setObjectName("gimOutputText");
+        gimOutputText->setReadOnly(true);
+
+        verticalLayout_6->addWidget(gimOutputText);
+
+        tabWidget->addTab(gimTab, QString());
+        zdtTab = new QWidget();
+        zdtTab->setObjectName("zdtTab");
+        verticalLayout_7 = new QVBoxLayout(zdtTab);
+        verticalLayout_7->setObjectName("verticalLayout_7");
+        zdtPlaceholderLabel = new QLabel(zdtTab);
+        zdtPlaceholderLabel->setObjectName("zdtPlaceholderLabel");
+        zdtPlaceholderLabel->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_7->addWidget(zdtPlaceholderLabel);
+
+        tabWidget->addTab(zdtTab, QString());
         jointTab = new QWidget();
         jointTab->setObjectName("jointTab");
         horizontalLayout_11 = new QHBoxLayout(jointTab);
@@ -682,6 +728,12 @@ public:
         rxMonitorText->setStyleSheet(QString());
         monitorButton->setText(QCoreApplication::translate("MainWindow", "Start Monitor", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(canTab), QCoreApplication::translate("MainWindow", "CAN Monitor", nullptr));
+        gimInputLabel->setText(QCoreApplication::translate("MainWindow", "\346\265\256\347\202\271\346\225\260\350\276\223\345\205\245:", nullptr));
+        gimInputEdit->setPlaceholderText(QCoreApplication::translate("MainWindow", "\350\276\223\345\205\245\346\265\256\347\202\271\346\225\260\357\274\214\346\214\211\345\233\236\350\275\246\350\275\254\346\215\242", nullptr));
+        gimOutputText->setPlaceholderText(QCoreApplication::translate("MainWindow", "\345\215\201\345\205\255\350\277\233\345\210\266\345\260\217\347\253\257\345\272\217\347\273\223\346\236\234\345\260\206\346\230\276\347\244\272\345\234\250\350\277\231\351\207\214", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(gimTab), QCoreApplication::translate("MainWindow", "GIM_Control", nullptr));
+        zdtPlaceholderLabel->setText(QCoreApplication::translate("MainWindow", "ZDT\346\216\247\345\210\266\351\241\265\351\235\242", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(zdtTab), QCoreApplication::translate("MainWindow", "ZDT_Control", nullptr));
         joint1Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 1 (Base)", nullptr));
         joint1SpinBox->setSuffix(QCoreApplication::translate("MainWindow", "\302\260", nullptr));
         joint2Group->setTitle(QCoreApplication::translate("MainWindow", "Joint 2 (Shoulder)", nullptr));
