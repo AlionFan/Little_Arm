@@ -73,6 +73,16 @@ public:
     QPushButton *presetButton8;
     QPushButton *presetButton9;
     QPushButton *presetButton10;
+    QPushButton *presetButton11;
+    QPushButton *presetButton12;
+    QPushButton *presetButton13;
+    QPushButton *presetButton14;
+    QPushButton *presetButton15;
+    QPushButton *presetButton16;
+    QPushButton *presetButton17;
+    QPushButton *presetButton18;
+    QPushButton *presetButton19;
+    QPushButton *presetButton20;
     QGroupBox *groupBox_2;
     QVBoxLayout *verticalLayout_3;
     QHBoxLayout *horizontalLayout_4;
@@ -91,7 +101,8 @@ public:
     QPushButton *monitorButton;
     QSpacerItem *horizontalSpacer;
     QWidget *gimTab;
-    QVBoxLayout *verticalLayout_6;
+    QHBoxLayout *horizontalLayout_gim;
+    QVBoxLayout *verticalLayout_gim_input;
     QHBoxLayout *horizontalLayout_12;
     QLabel *gimInputLabel;
     QLineEdit *gimInputEdit;
@@ -423,6 +434,56 @@ public:
 
         presetGridLayout->addWidget(presetButton10, 1, 4, 1, 1);
 
+        presetButton11 = new QPushButton(presetGroupBox);
+        presetButton11->setObjectName("presetButton11");
+
+        presetGridLayout->addWidget(presetButton11, 2, 0, 1, 1);
+
+        presetButton12 = new QPushButton(presetGroupBox);
+        presetButton12->setObjectName("presetButton12");
+
+        presetGridLayout->addWidget(presetButton12, 2, 1, 1, 1);
+
+        presetButton13 = new QPushButton(presetGroupBox);
+        presetButton13->setObjectName("presetButton13");
+
+        presetGridLayout->addWidget(presetButton13, 2, 2, 1, 1);
+
+        presetButton14 = new QPushButton(presetGroupBox);
+        presetButton14->setObjectName("presetButton14");
+
+        presetGridLayout->addWidget(presetButton14, 2, 3, 1, 1);
+
+        presetButton15 = new QPushButton(presetGroupBox);
+        presetButton15->setObjectName("presetButton15");
+
+        presetGridLayout->addWidget(presetButton15, 2, 4, 1, 1);
+
+        presetButton16 = new QPushButton(presetGroupBox);
+        presetButton16->setObjectName("presetButton16");
+
+        presetGridLayout->addWidget(presetButton16, 3, 0, 1, 1);
+
+        presetButton17 = new QPushButton(presetGroupBox);
+        presetButton17->setObjectName("presetButton17");
+
+        presetGridLayout->addWidget(presetButton17, 3, 1, 1, 1);
+
+        presetButton18 = new QPushButton(presetGroupBox);
+        presetButton18->setObjectName("presetButton18");
+
+        presetGridLayout->addWidget(presetButton18, 3, 2, 1, 1);
+
+        presetButton19 = new QPushButton(presetGroupBox);
+        presetButton19->setObjectName("presetButton19");
+
+        presetGridLayout->addWidget(presetButton19, 3, 3, 1, 1);
+
+        presetButton20 = new QPushButton(presetGroupBox);
+        presetButton20->setObjectName("presetButton20");
+
+        presetGridLayout->addWidget(presetButton20, 3, 4, 1, 1);
+
 
         verticalLayout_2->addWidget(presetGroupBox);
 
@@ -512,28 +573,49 @@ public:
         tabWidget->addTab(canTab, QString());
         gimTab = new QWidget();
         gimTab->setObjectName("gimTab");
-        verticalLayout_6 = new QVBoxLayout(gimTab);
-        verticalLayout_6->setObjectName("verticalLayout_6");
+        horizontalLayout_gim = new QHBoxLayout(gimTab);
+        horizontalLayout_gim->setObjectName("horizontalLayout_gim");
+        verticalLayout_gim_input = new QVBoxLayout();
+        verticalLayout_gim_input->setObjectName("verticalLayout_gim_input");
         horizontalLayout_12 = new QHBoxLayout();
         horizontalLayout_12->setObjectName("horizontalLayout_12");
         gimInputLabel = new QLabel(gimTab);
         gimInputLabel->setObjectName("gimInputLabel");
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(gimInputLabel->sizePolicy().hasHeightForWidth());
+        gimInputLabel->setSizePolicy(sizePolicy);
 
         horizontalLayout_12->addWidget(gimInputLabel);
 
         gimInputEdit = new QLineEdit(gimTab);
         gimInputEdit->setObjectName("gimInputEdit");
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(gimInputEdit->sizePolicy().hasHeightForWidth());
+        gimInputEdit->setSizePolicy(sizePolicy1);
+        gimInputEdit->setMinimumWidth(150);
 
         horizontalLayout_12->addWidget(gimInputEdit);
 
 
-        verticalLayout_6->addLayout(horizontalLayout_12);
+        verticalLayout_gim_input->addLayout(horizontalLayout_12);
+
+
+        horizontalLayout_gim->addLayout(verticalLayout_gim_input);
 
         gimOutputText = new QTextEdit(gimTab);
         gimOutputText->setObjectName("gimOutputText");
+        QSizePolicy sizePolicy2(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy2.setHorizontalStretch(1);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(gimOutputText->sizePolicy().hasHeightForWidth());
+        gimOutputText->setSizePolicy(sizePolicy2);
         gimOutputText->setReadOnly(true);
 
-        verticalLayout_6->addWidget(gimOutputText);
+        horizontalLayout_gim->addWidget(gimOutputText);
 
         tabWidget->addTab(gimTab, QString());
         zdtTab = new QWidget();
@@ -659,11 +741,11 @@ public:
         robot3dView = new QQuickWidget(robot3dGroup);
         robot3dView->setObjectName("robot3dView");
         robot3dView->setResizeMode(QQuickWidget::SizeRootObjectToView);
-        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
-        sizePolicy.setHorizontalStretch(1);
-        sizePolicy.setVerticalStretch(1);
-        sizePolicy.setHeightForWidth(robot3dView->sizePolicy().hasHeightForWidth());
-        robot3dView->setSizePolicy(sizePolicy);
+        QSizePolicy sizePolicy3(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy3.setHorizontalStretch(1);
+        sizePolicy3.setVerticalStretch(1);
+        sizePolicy3.setHeightForWidth(robot3dView->sizePolicy().hasHeightForWidth());
+        robot3dView->setSizePolicy(sizePolicy3);
 
         robot3dLayout->addWidget(robot3dView);
 
@@ -718,6 +800,16 @@ public:
         presetButton8->setText(QCoreApplication::translate("MainWindow", "Preset 8", nullptr));
         presetButton9->setText(QCoreApplication::translate("MainWindow", "Preset 9", nullptr));
         presetButton10->setText(QCoreApplication::translate("MainWindow", "Preset 10", nullptr));
+        presetButton11->setText(QCoreApplication::translate("MainWindow", "Preset 11", nullptr));
+        presetButton12->setText(QCoreApplication::translate("MainWindow", "Preset 12", nullptr));
+        presetButton13->setText(QCoreApplication::translate("MainWindow", "Preset 13", nullptr));
+        presetButton14->setText(QCoreApplication::translate("MainWindow", "Preset 14", nullptr));
+        presetButton15->setText(QCoreApplication::translate("MainWindow", "Preset 15", nullptr));
+        presetButton16->setText(QCoreApplication::translate("MainWindow", "Preset 16", nullptr));
+        presetButton17->setText(QCoreApplication::translate("MainWindow", "Preset 17", nullptr));
+        presetButton18->setText(QCoreApplication::translate("MainWindow", "Preset 18", nullptr));
+        presetButton19->setText(QCoreApplication::translate("MainWindow", "Preset 19", nullptr));
+        presetButton20->setText(QCoreApplication::translate("MainWindow", "Preset 20", nullptr));
         groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "Monitor", nullptr));
         collapseCheckBox->setText(QCoreApplication::translate("MainWindow", "Collapse Messages", nullptr));
         collapseIntervalSpinBox->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));

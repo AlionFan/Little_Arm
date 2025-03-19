@@ -127,7 +127,9 @@ void MainWindow::setupPresetButtons()
     // 连接预设按钮信号
     QList<QPushButton*> presetButtons = {
         ui->presetButton1, ui->presetButton2, ui->presetButton3, ui->presetButton4, ui->presetButton5,
-        ui->presetButton6, ui->presetButton7, ui->presetButton8, ui->presetButton9, ui->presetButton10
+        ui->presetButton6, ui->presetButton7, ui->presetButton8, ui->presetButton9, ui->presetButton10,
+        ui->presetButton11, ui->presetButton12, ui->presetButton13, ui->presetButton14, ui->presetButton15,
+        ui->presetButton16, ui->presetButton17, ui->presetButton18, ui->presetButton19, ui->presetButton20
     };
 
     for (int i = 0; i < presetButtons.size(); ++i) {
@@ -198,7 +200,7 @@ void MainWindow::setupPresetButtons()
 void MainWindow::loadPresetMessages()
 {
     QSettings settings("CANClient", "PresetMessages");
-    for (int i = 1; i <= 10; ++i) {
+    for (int i = 1; i <= 20; ++i) {
         QString key = QString("Preset%1").arg(i);
         QString message = settings.value(key).toString();
         if (!message.isEmpty()) {
